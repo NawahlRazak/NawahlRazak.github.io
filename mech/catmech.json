@@ -45,109 +45,109 @@
     "link": "subpages/m17.html"
   },
   {
-    "title": "M18- Plunger",
+    "title": "M18 - Plunger",
     "image": "images/m18plunger.jpg",
     "description": "This demonstrates the concept of the center of mass frame.",
     "link": "subpages/m18.html"
   },
   {
-    "title": "M19- Double Cone",
+    "title": "M19 - Double Cone",
     "image": "images/m19cone.jpg",
     "description": "This illustrates the concept of centre of mass with a less intuitive setup.",
     "link": "subpages/m19.html"
   },  
   {
-    "title": "M20- Inertial Reference Frame",
+    "title": "M20 - Inertial Reference Frame",
     "image": "images/m20iframe.jpg",
     "description": "Demonstrates the concept of an inertial reference frame.",
     "link": "subpages/m20.html"
   },  
   {
-    "title": "M21- Ball Falling into cup",
+    "title": "M21 - Ball Falling into cup",
     "image": "images/m21ballincup.jpg",
     "description": "Demonstrates the absence of the gravitational force in the reference frame of a free-falling system.",
     "link": "subpages/m21.html"
   },  
   {
-    "title": "M22- Slinky and Stairs",
+    "title": "M22 - Slinky and Stairs",
     "image": "images/m22slinky.jpg",
     "description": "Demonstrates several physics principles, including wave motion, Hooke's law, and the effects of gravity.",
     "link": "subpages/m22.html"
   },
   {
-    "title": "M23- Falling Chimney",
+    "title": "M23 - Falling Chimney",
     "image": "images/m23chimney.jpg",
     "description": "Visually demonstrates the effects of rotational inertia and angular acceleration on a rotating object.",
     "link": "subpages/m23.html"
   },
   {
-    "title": "M30- Inertia",
+    "title": "M30 - Inertia",
     "image": "images/m30inertia.jpg",
     "description": "Demonstrates the concept of inertia.",
     "link": "subpages/m30.html"
   },
   {
-    "title": "M40- Parallelogram of forces",
+    "title": "M40 - Parallelogram of forces",
     "image": "images/m40parallelog.jpg",
     "description": "Demonstrates the parallelogram rule for summing vectors.",
     "link": "subpages/m40.html"
   },
   {
-    "title": "M41- Resultant of Vectors in 3D",
+    "title": "M41 - Resultant of Vectors in 3D",
     "image": "images/m41resultant.jpg",
     "description": "This shows that equilibrium of forces takes place in 3 dimensions.",
     "link": "subpages/m41.html"
   },
   {
-    "title": "M42- Components of forces",
+    "title": "M42 - Components of forces",
     "image": "images/m42fcomponents.jpg",
     "description": "Demonstrates the independence of the compenents of forces.",
     "link": "subpages/m42.html"
   },
   {
-    "title": "M43- Aeroplane on a String",
+    "title": "M43 - Aeroplane on a String",
     "image": "images/m43aeroplane.jpg",
     "description": "Demonstrates the principles of centripetal force, angular velocity, and rotational kinetic energy.",
     "link": "subpages/m43.html"
   },
   {
-    "title": "M44- Tangential motion",
+    "title": "M44 - Tangential motion",
     "image": "images/m44tangent.jpg",
     "description": "Demonstrates Newton's First Law.",
     "link": "subpages/m44.html"
   },  
   {
-    "title": "M46- Sphere's on Inclined Plane",
+    "title": "M46 - Sphere's on Inclined Plane",
     "image": "images/m46sphereonplane.jpg",
     "description": "demonstrates the principles of conservation of energy, rotational motion, and the relationship between linear and rotational kinetic energy.",
     "link": "subpages/m46.html"
   },    
    {
-    "title": "M47- Stability of a ladder",
+    "title": "M47 - Stability of a ladder",
     "image": "images/m47stableladder.jpg",
     "description": "This is an example of three forces in equilibrium.",
     "link": "subpages/m47.html"
   },
   {
-    "title": "M48- Roller on Inclined Plane",
+    "title": "M48 - Roller on Inclined Plane",
     "image": "images/m48rolleronplane.jpg",
     "description": "demonstrates that rolling friction is smaller than sliding friction.",
     "link": "subpages/m48.html"
   },
     {
-    "title": "M49- Loaded Block on Inclined Plane",
+    "title": "M49 - Loaded Block on Inclined Plane",
     "image": "images/m49loadedblockonplane.jpg",
     "description": "Shows in principle how the coefficients of static and kinetic friction can be determined.",
     "link": "subpages/m49.html"
   },
   {
-    "title": "M50- Block on Inclined Plane",
+    "title": "M50 - Block on Inclined Plane",
     "image": "images/m50blockonplane.jpg",
     "description": "Demonstrates friction.",
     "link": "subpages/m50.html"
   },
   {
-    "title": "M60- Varying tension in string",
+    "title": "M60 - Varying tension in string",
     "image": "images/m60varytension.jpg",
     "description": "Demonstrates varying tension due to centripetal acceleration.",
     "link": "subpages/m60.html"
@@ -159,9 +159,392 @@
     "link": "subpages/m61.html"
   },
   {
-    "title": "M62- Resolution of forces",
+    "title": "M62 - Resolution of forces",
     "image": "images/m62fresolution.jpg",
     "description": "Shows the forces exerted on a block resting on an inclined plane.",
     "link": "subpages/m62.html"
-  }  
+  },
+{
+    "title": "M66 - Differential Pulley",
+    "image": "images/m66diffpulley.jpg",
+    "description": "Demonstrates the use of a differential pulley.",
+    "link": "subpages/m66.html"
+  },
+{
+    "title": "M67 - Screwjack",
+    "image": "images/m67screwjack.jpg",
+    "description": "Illustrates the principle that the work done in lifting a large mass a short distance is equivalent to the work done by a small force over a large distance.",
+    "link": "subpages/m67.html"
+  },
+{
+    "title": "M68 - Equal Masses on Double Pulley",
+    "image": "images/m68doublepulley.jpg",
+    "description": "Illustrates Newton's 1st law in a less intuitive setup.",
+    "link": "subpages/m68.html"
+  },
+{
+    "title": "M69 - Adjustable Pulley",
+    "image": "images/m69adjustpulley.jpg",
+    "description": "A pulley with adjustable height.",
+    "link": "subpages/m69.html"
+  },
+{
+    "title": "M80 - Trolleys",
+    "image": "images/m80trolleys.jpg",
+    "description": "Demonstrates elastic collisions.",
+    "link": "subpages/m80.html"
+  },
+{
+    "title": "M81 - Newton's Cradle",
+    "image": "images/m81newtoncradle.jpg",
+    "description": "Demonstrates the conservation of momentum and kinetic energy in elastic collisions.",
+    "link": "subpages/m81.html"
+  },
+{
+    "title": "M82 - Mini Newton's Cradle",
+    "image": "images/m82minicradle.jpg",
+    "description": "Demonstrates the conservation of momentum and kinetic energy in elastic collisions.",
+    "link": "subpages/m82.html"
+  },
+{
+    "title": "M83 - Balls on Rails",
+    "image": "images/m83ballsonrails.jpg",
+    "description": "Demonstrates the conservation of momentum and kinetic energy in elastic collisions.",
+    "link": "subpages/m83.html"
+  },
+{
+    "title": "M84 - Inelastic collisions",
+    "image": "images/m84inelastic.jpg",
+    "description": "Demonstrates how momentum and kinetic energy are not conserved in inelastic collisions.",
+    "link": "subpages/m84.html"
+  },
+  {
+    "title": "M85 - conservation of Momentum",
+    "image": "images/m84inelastic.jpg",
+    "description": "Demonstrates conservation of momentum.",
+    "link": "subpages/m85.html"
+  },                         
+ {
+    "title": "M86 - Elastic & Inelastic collisions",
+    "image": "images/m86inelastic.jpg",
+    "description": "Demonstrates the difference between elastic and inelastic collisions.",
+    "link": "subpages/m86.html"
+  },                         
+ {
+    "title": "M87 - Superballs",
+    "image": "images/m87superballs.jpg",
+    "description": "To show objects with high coefficients of restitution.",
+    "link": "subpages/m87.html"
+  },                         
+ {
+    "title": "M88- Conservation of Momentum",
+    "image": "images/m88momcons.jpg",
+    "description": "Demonstrates conservaton of momentum with a less intuitive setup.",
+    "link": "subpages/m88.html"
+  },                         
+ {
+    "title": "M90 - Rocket and Block",
+    "image": "images/m90rocketblock.jpg",
+    "description": "Demonstrates transfer of energy in elastic and inelastic collisions.",
+    "link": "subpages/m90.html"
+  },                         
+ {
+    "title": "M91 - Air Table",
+    "image": "images/m91airtable.jpg",
+    "description": "Demonstrates elastic collisions.",
+    "link": "subpages/m91.html"
+  },                         
+ {
+    "title": "M92 - Water Rocket",
+    "image": "images/m92waterrocket.jpg",
+    "description": "Demonstrates how conservation of momentum is behind the working of rockets.",
+    "link": "subpages/m92.html"
+  },                         
+ {
+    "title": "M93 - Balls on Tracks",
+    "image": "images/m93ballsontracks.jpg",
+    "description": "An interesting and somewhat counter-intuitive experiment.",
+    "link": "subpages/m93.html"
+  },                         
+ {
+    "title": "M100 - Attwood's Machine",
+    "image": "images/m100Attwoods.jpg",
+    "description": "An interesting rotational device to demonstrate the principles of motion with constant acceleration.",
+    "link": "subpages/m100.html"
+  },                         
+ {
+    "title": "M101 - Crowbar",
+    "image": "images/m101crowbar.jpg",
+    "description": "Illustrates the idea of moments.",
+    "link": "subpages/m101.html"
+  },                         
+ {
+    "title": "M102 - Rotational Motion",
+    "image": "images/m102rotation.jpg",
+    "description": "Demonstrates various principles of rotational motion.",
+    "link": "subpages/m102.html"
+  },                         
+ {
+    "title": "M103 - conservation of Momentum: Jet Propulsion",
+    "image": "images/m103jetprop.jpg",
+    "description": "Demonstrates conservation of momentum.",
+    "link": "subpages/m103.html"
+  },                         
+ {
+    "title": "M104 - Centrifugal Force",
+    "image": "images/m104centrifug.jpg",
+    "description": "Demonstrates the centripetal force on and centrifugal reaction by a constrained rotated object.",
+    "link": "subpages/m104.html"
+  },                         
+ {
+    "title": "M105 - Rotating Candles",
+    "image": "images/m105rotcandles.jpg",
+    "description": "Demonstrates the interplay between buoyancy, centripetal force, and the properties of a flame.",
+    "link": "subpages/m105.html"
+  },                         
+ {
+    "title": "M106 - Large Gyroscope",
+    "image": "images/m106gyrolarge.jpg",
+    "description": "Demonstrates various rotational principles.",
+    "link": "subpages/m106.html"
+  },                         
+ {
+    "title": "M108 - Angular Momentum",
+    "image": "images/m108angmom.jpg",
+    "description": "Demonstrates various rotational principles.",
+    "link": "subpages/m108.html"
+  },                         
+ {
+    "title": "M109 - Small Gyroscopes",
+    "image": "images/m109gyrosmall.jpg",
+    "description": "Shows the working of gyroscopes.",
+    "link": "subpages/m109.html"
+  },                         
+ {
+    "title": "M110 - Rotational Motion",
+    "image": "images/m110rotmot.jpg",
+    "description": "Shows forces in rotational motion.",
+    "link": "subpages/m110.html"
+  },                         
+ {
+    "title": "M114 - Celts",
+    "image": "images/m114celts.jpg",
+    "description": "Demonstrates a unique spin reversal behavior.",
+    "link": "subpages/m114.html"
+  },                         
+ {
+    "title": "M120 - Hooke's Law",
+    "image": "images/m120hooks.jpg",
+    "description": "Demonstrates Hooke's Law.",
+    "link": "subpages/m120.html"
+  },                         
+ {
+    "title": "M121 - Elastic Limit",
+    "image": "images/m121elimit.jpg",
+    "description": "Demonstrates Hooke's Law and the elastic limit of a material.",
+    "link": "subpages/m121.html"
+  },                         
+ {
+    "title": "M122 - Modulus of Rigidity",
+    "image": "images/m122rigidity.jpg",
+    "description": "Demonstrates the concepts of torsion and the modulus of rigidity.",
+    "link": "subpages/m122.html"
+  },                         
+ {
+    "title": "M130 - Harmonic motion",
+    "image": "images/m130harmonic.jpg",
+    "description": "Shows the equivalence of two types of simple harmonic motion.",
+    "link": "subpages/m130.html"
+  },                         
+ {
+    "title": "M131 - Cantilever Oscillations",
+    "image": "images/m131cantilever.jpg",
+    "description": "Demonstrates free-end oscillations.",
+    "link": "subpages/m131.html"
+  },                         
+ {
+    "title": "M132 - Ball on a spring (SHM)",
+    "image": "images/m132ballonspring.jpg",
+    "description": "Demonstrates Simple Harmonic Motion with a ball on a spring.",
+    "link": "subpages/m132.html"
+  },                         
+ {
+    "title": "M133 - Oscillating ball on slope (SHM)",
+    "image": "images/m133oscball.jpg",
+    "description": "Demonstrates Harmonic Motion.",
+    "link": "subpages/m133.html"
+  },                         
+ {
+    "title": "M140 - Simple Pendulums",
+    "image": "images/m140simpend.jpg",
+    "description": "Demonstrates Oscillations using a Simple Pendulum.",
+    "link": "subpages/m140.html"
+  },                         
+ {
+    "title": "M141 - Period of Oscillation",
+    "image": "images/m141period.jpg",
+    "description": "Shows that the period of oscillation is independent of mass but proportional to the length of string.",
+    "link": "subpages/m141.html"
+  },                         
+ {
+    "title": "M142 - Whirligig Pendulum",
+    "image": "images/m142whirligig.jpg",
+    "description": "Mostly Entertaining.  Shows the conversion energy (like wind or elastic energy in a string) into rotational motion.",
+    "link": "subpages/m142.html"
+  },                         
+ {
+    "title": "M143 - Galilieo's Pendulum",
+    "image": "images/m143galpend.jpg",
+    "description": "Shows the transformation from potential energy to kinetic energy and back again.",
+    "link": "subpages/m143.html"
+  },
+  {
+    "title": "M144 - Ballistic Pendulum",
+    "image": "images/m143galpend.jpg",
+    "description": "Demonstrates conservation of energy.",
+    "link": "subpages/m144.html"
+  },
+  {
+    "title": "M145 - Probabalistic Pendulum",
+    "image": "images/m145probapend.jpg",
+    "description": "Demonstrates conservation of energy.",
+    "link": "subpages/m145.html"
+  },
+  {
+    "title": "M146 - Ring Pendulum",
+    "image": "images/m146ringpend.jpg",
+    "description": "Shows that a ring and a straight pendulum have the same period if the length of the pendulum is equal to the diameter of the ring.",
+    "link": "subpages/m146.html"
+  },
+  {
+    "title": "M147 - Different Lengths Pendulum",
+    "image": "images/m147difflenthpend.jpg",
+    "description": "Demonstrates how the period of a pendulum depends on its length.",
+    "link": "subpages/m147.html"
+  },
+  {
+    "title": "M148 - Oscillating Lamina",
+    "image": "images/m148osclam.jpg",
+    "description": "Demonstrates how changing the moment of inertia affects the frequency of oscillation.",
+    "link": "subpages/m148.html"
+  },
+  {
+    "title": "M149 - Double Pendulum",
+    "image": "images/m149doubpend.jpg",
+    "description": "This is an example of a chaotic system that is highly sensitive to initial conditions.",
+    "link": "subpages/m149.html"
+  },
+  {
+    "title": "M150 - Two Rod Pendulums",
+    "image": "images/m150tworodpend.jpg",
+    "description": "A comparison of the acclerations of pendulums with and without masses attached to their lower ends.",
+    "link": "subpages/m150.html"
+  },
+  {
+    "title": "M151 - Giant Pendulum",
+    "image": "images/m151giantpend.jpg",
+    "description": "This demonstrates conservation of energy in a dramatic way.",
+    "link": "subpages/m151.html"
+  },
+  {
+    "title": "M160 - Wilberforce Pendulum",
+    "image": "images/m160wilberpend.jpg",
+    "description": "Shows the normal modes of a Wilberforce pendulum.",
+    "link": "subpages/m160.html"
+  },
+  {
+    "title": "M161 - Adjustable Wilberforce Pendulum",
+    "image": "images/m161adjwilberpend.jpg",
+    "description": "This demonstrates the effect of changing the moment of inertia on the beat frequency of a Wilberforce pendulum.",
+    "link": "subpages/m161.html"
+  },
+  {
+    "title": "M162 - Simple Coupled Oscillator",
+    "image": "images/m162couposc.jpg",
+    "description": "Demonstration of a coupled oscillator.",
+    "link": "subpages/m162.html"
+  },
+  {
+    "title": "M163 - Oscillator Coupled by Mass",
+    "image": "images/m163masscouposc.jpg",
+    "description": "Demonstration of coupled oscillators.",
+    "link": "subpages/m163.html"
+  },
+  {
+    "title": "M163 - Oscillator Coupled by Rod",
+    "image": "images/m163rodcouposc.jpg",
+    "description": "Demonstration of coupled oscillators.",
+    "link": "subpages/m163.html"
+  },
+  {
+    "title": "M163 - Oscillator Coupled by Bar",
+    "image": "images/m164barcouposc.jpg",
+    "description": "Demonstration of coupled oscillators.",
+    "link": "subpages/m164.html"
+  },
+  {
+    "title": "M166 - Pair of Wilberforce Pendulums",
+    "image": "images/m166wilberpair.jpg",
+    "description": "Demonstration of coupled oscillators.",
+    "link": "subpages/m166.html"
+  },
+  {
+    "title": "M170 - Resonance",
+    "image": "images/m170resonance.jpg",
+    "description": "Demonstration resonance.",
+    "link": "subpages/m170.html"
+  },
+  {
+    "title": "M171 - Resonance Oscillations",
+    "image": "images/m171resonance.jpg",
+    "description": "Demonstration resonance.",
+    "link": "subpages/m171.html"
+  },
+  {
+    "title": "M180 - Chemical balance",
+    "image": "images/m180chembalance.jpg",
+    "description": "Used to illustrate the sensitivity and stability of a chemical balance.",
+    "link": "subpages/m180.html"
+  },
+  {
+    "title": "M181 - Large Vernier Callipers",
+    "image": "images/m181Largevernier.jpg",
+    "description": "Large model of Vernier calipers.",
+    "link": "subpages/m181.html"
+  },
+  {
+    "title": "M182 - Large Slide Rule",
+    "image": "images/m182sliderule.jpg",
+    "description": "A large slide rule.",
+    "link": "subpages/m182.html"
+  },
+  {
+    "title": "M183 - Model of a Vernier Scale",
+    "image": "images/m183vernierscale.jpg",
+    "description": "Model of a Vernier Scale.",
+    "link": "subpages/m183.html"
+  },
+  {
+    "title": "M184 - Oscillating Lamina",
+    "image": "images/m184micrometer.jpg",
+    "description": "Large model of a Micrometer Screwguage.",
+    "link": "subpages/m184.html"
+  },
+  {
+    "title": "M185 - Spherometer",
+    "image": "images/m185spherometer.jpg",
+    "description": "Large model of a spherometer.",
+    "link": "subpages/m185.html"
+  },
+  {
+    "title": "M186 - Vector Arrows",
+    "image": "images/m186vectors.jpg",
+    "description": "Use them to demonstrate vectors in three dimensions.",
+    "link": "subpages/m186.html"
+  }
+  
+  
+  
+  
+  
 ]
