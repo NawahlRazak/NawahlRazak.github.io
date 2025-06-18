@@ -1,41 +1,167 @@
 [
   {
     "title": "M11 - Guinea & Feather",
-    "image": "images/image031.png",
+    "image": "images/m11.png",
     "description": "Demonstrates that acceleration due to gravity is not dependent on mass or shape.",
-    "link": "https://www.google.com"
-
-  },
+    "link": "subpages/m11.html",
+    "infotext": "A metal disc and a piece of paper are placed in separate glass tubes. When there is air in the tubes the paper flutters down, while the metal disc drops quickly. When the air is evacuated from the tubes (using a rotary pump), both fall with the same acceleration. The vacuum pump is kept in the gallery of prep room B."
+   
+},
   {
     "title": "M12 - The Gun that never misses",
-    "image": "images/image031.png",
+    "image": "images/m12.png",
     "description": "This demonstrates the independence of the horizontal and vertical components of motion with a less intuitive setup. ",
-    "link": "https://www.google.com"
+    "link": "subpages/m12.html"
   },
   {
     "title": "M13 - Pop and Drop",
-    "image": "assets/mechanics/image031.png",
+    "image": "images/m13popanddrop.jpg",
     "description": "This demonstrates the independence of the vertical and horizontal components of velocity.",
-    "link": "https://www.google.com"
+    "link": "subpages/m13.html"
   },
    {
     "title": "M14 - Rolling Cart Catches Ball",
-    "image": "images/image031.png",
+    "image": "images/m14rollingcart.jpg",
     "description": "This demonstrates the independence of the vertical and horizontal components of velocity.",
-    "link": "https://www.google.com"
+    "link": "subpages/m14.html"
   },
 
   {
     "title": "M15 - Center of Mass",
-    "image": "images/image031.png",
+    "image": "images/m15com.jpg",
     "description": "This demonstrates the concept of center of mass.",
-    "link": "https://www.google.com"
+    "link": "subpages/m15.html"
   },
   {
     "title": "M16 - Principle of Moments",
-    "image": "images/image031.png",
+    "image": "images/m16moments.jpg",
     "description": "This demonstrates the principle of moments.",
-    "link": "https://www.google.com"
-  }
-
+    "link": "subpages/m16.html"
+  },
+  {
+    "title": "M17 - Center of Gravity",
+    "image": "images/m17cog.jpg",
+    "description": "This demonstrates the concept of centre of gravity.",
+    "link": "subpages/m17.html"
+  },
+  {
+    "title": "M18- Plunger",
+    "image": "images/m18plunger.jpg",
+    "description": "This demonstrates the concept of the center of mass frame.",
+    "link": "subpages/m18.html"
+  },
+  {
+    "title": "M19- Double Cone",
+    "image": "images/m19cone.jpg",
+    "description": "This illustrates the concept of centre of mass with a less intuitive setup.",
+    "link": "subpages/m19.html"
+  },  
+  {
+    "title": "M20- Inertial Reference Frame",
+    "image": "images/m20iframe.jpg",
+    "description": "Demonstrates the concept of an inertial reference frame.",
+    "link": "subpages/m20.html"
+  },  
+  {
+    "title": "M21- Ball Falling into cup",
+    "image": "images/m21ballincup.jpg",
+    "description": "Demonstrates the absence of the gravitational force in the reference frame of a free-falling system.",
+    "link": "subpages/m21.html"
+  },  
+  {
+    "title": "M22- Slinky and Stairs",
+    "image": "images/m22slinky.jpg",
+    "description": "Demonstrates several physics principles, including wave motion, Hooke's law, and the effects of gravity.",
+    "link": "subpages/m22.html"
+  },
+  {
+    "title": "M23- Falling Chimney",
+    "image": "images/m23chimney.jpg",
+    "description": "Visually demonstrates the effects of rotational inertia and angular acceleration on a rotating object.",
+    "link": "subpages/m23.html"
+  },
+  {
+    "title": "M30- Inertia",
+    "image": "images/m30inertia.jpg",
+    "description": "Demonstrates the concept of inertia.",
+    "link": "subpages/m30.html"
+  },
+  {
+    "title": "M40- Parallelogram of forces",
+    "image": "images/m40parallelog.jpg",
+    "description": "Demonstrates the parallelogram rule for summing vectors.",
+    "link": "subpages/m40.html"
+  },
+  {
+    "title": "M41- Resultant of Vectors in 3D",
+    "image": "images/m41resultant.jpg",
+    "description": "This shows that equilibrium of forces takes place in 3 dimensions.",
+    "link": "subpages/m41.html"
+  },
+  {
+    "title": "M42- Components of forces",
+    "image": "images/m42fcomponents.jpg",
+    "description": "Demonstrates the independence of the compenents of forces.",
+    "link": "subpages/m42.html"
+  },
+  {
+    "title": "M43- Aeroplane on a String",
+    "image": "images/m43aeroplane.jpg",
+    "description": "Demonstrates the principles of centripetal force, angular velocity, and rotational kinetic energy.",
+    "link": "subpages/m43.html"
+  },
+  {
+    "title": "M44- Tangential motion",
+    "image": "images/m44tangent.jpg",
+    "description": "Demonstrates Newton's First Law.",
+    "link": "subpages/m44.html"
+  },  
+  {
+    "title": "M46- Sphere's on Inclined Plane",
+    "image": "images/m46sphereonplane.jpg",
+    "description": "demonstrates the principles of conservation of energy, rotational motion, and the relationship between linear and rotational kinetic energy.",
+    "link": "subpages/m46.html"
+  },    
+   {
+    "title": "M47- Stability of a ladder",
+    "image": "images/m47stableladder.jpg",
+    "description": "This is an example of three forces in equilibrium.",
+    "link": "subpages/m47.html"
+  },
+  {
+    "title": "M48- Roller on Inclined Plane",
+    "image": "images/m48rolleronplane.jpg",
+    "description": "demonstrates that rolling friction is smaller than sliding friction.",
+    "link": "subpages/m48.html"
+  },
+    {
+    "title": "M49- Loaded Block on Inclined Plane",
+    "image": "images/m49loadedblockonplane.jpg",
+    "description": "Shows in principle how the coefficients of static and kinetic friction can be determined.",
+    "link": "subpages/m49.html"
+  },
+  {
+    "title": "M50- Block on Inclined Plane",
+    "image": "images/m50blockonplane.jpg",
+    "description": "Demonstrates friction.",
+    "link": "subpages/m50.html"
+  },
+  {
+    "title": "M60- Varying tension in string",
+    "image": "images/m60varytension.jpg",
+    "description": "Demonstrates varying tension due to centripetal acceleration.",
+    "link": "subpages/m60.html"
+  },
+  {
+    "title": "M61 - Pulley Systems",
+    "image": "images/m61pulleys.jpg",
+    "description": "Demonstrates various pulleys.",
+    "link": "subpages/m61.html"
+  },
+  {
+    "title": "M62- Resolution of forces",
+    "image": "images/m62fresolution.jpg",
+    "description": "Shows the forces exerted on a block resting on an inclined plane.",
+    "link": "subpages/m62.html"
+  }  
 ]

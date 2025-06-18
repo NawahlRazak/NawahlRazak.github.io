@@ -9,31 +9,47 @@
 </head>
 <body>
     <header>
-        <a href="/index.html">Return to main page</a>
+        <h1 style="text-align:center;">Waves & Light Demonstrations</h1>
+        <img class="demonline" src="/assets/demonline.gif" />
     </header>
-     <h1 style="text-align:center;">Waves & Light Demonstrations</h1>
-    <div id="catalogue" class="catalogue-container"></div>
+    <main>
+      <div id="catalogue" class="catalogue-container"></div>
 
-    <script>
-    fetch('catwaves.json')
-      .then(response => response.json())
-      .then(data => {
-        const container = document.getElementById('catalogue');
-        data.forEach(item => {
-          const html = `
+      <script>
+        fetch("catwaves.json") /*Waves and Light demo catalog json file */
+          .then((response) => response.json())
+          .then((data) => {
+            const container = document.getElementById("catalogue");
+            data.forEach((item) => {
+              const html = `
             <div class="catalogue-item">
               <h3><a href="${item.link}" target="_blank">${item.title}</a></h3>
               <img width src="${item.image}">
               <p>${item.description}</p>
             <div>
+        
           `;
-          container.innerHTML += html;
-        });
-      })
-      .catch(error => {
-        console.error("Error loading catalogue:", error);
-        document.getElementById('catalogue').innerText = "Failed to load catalogue.";
-      });
-  </script>
-</body>
+              container.innerHTML += html;
+            });
+          })
+          .catch((error) => {
+            console.error("Error loading catalogue:", error);
+            document.getElementById("catalogue").innerText =
+              "Failed to load catalogue.";
+          });
+        function toggleText() {
+          const box = document.getElementById("collapsible");
+          box.classList.toggle("open");
+        }
+      </script>
+    </main>
+    <footer>
+      <p><a href="/index.html">Return to All demos</a></p>
+      <p>
+        <a href="https://science.uct.ac.za/department-physics"
+          >Go to UCT Physics Website</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>
