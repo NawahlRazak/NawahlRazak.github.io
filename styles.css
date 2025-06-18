@@ -1,4 +1,5 @@
 body {
+    overflow: hidden;
     text-align: center;
     font-family: "Roboto", sans-serif;
     background-color: azure;
@@ -41,24 +42,24 @@ h3 a {
 
 }
 
-    .collapsible-container {
+.collapsible-container {
       overflow: hidden;
       max-height: 0;
       transition: max-height 0.3s ease-out;
     }
 
-    .collapsible-container.open {
+.collapsible-container.open {
       max-height: 200px; /* Adjust as needed for content size */
     }
 
-    .collapsible-content {
+.collapsible-content {
       padding: 10px;
       background-color: #f0f0f0;
       border-left: 4px solid #0065BD;
     }
 .description {
-    margin: 20px 300px;
-    text-align: center;
+    width: 400px;
+    margin: 20px auto;
 }
 footer {
     background-color: azure;
@@ -73,6 +74,6 @@ footer {
         font-size: 20px;
     }
 .demonline {
-    width: 60%;
+    width: 50%;
 }
 
