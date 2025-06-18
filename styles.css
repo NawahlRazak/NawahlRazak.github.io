@@ -8,7 +8,7 @@ h1 {
     background-color: rgb(0, 36, 58);
     color: azure;
     padding: 50px;
-    font-size: 3vw;
+    font-size: 40px;
 
 }
 
@@ -27,7 +27,7 @@ li p {
     
 a {
     color:azure;
-     font-size: 2vw;
+     font-size: 30px;
     margin: 20 px;
     text-decoration: none;
     background-color: rgb(0, 36, 58);
@@ -72,5 +72,7 @@ footer {
         color:rgb(0, 36, 58);
         font-size: 20px;
     }
-
+.demonline {
+    width: fit-content;
+}
 
