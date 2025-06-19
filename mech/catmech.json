@@ -1,7 +1,7 @@
 [
   {
     "title": "M11 - Guinea & Feather",
-    "image": "images/m11.png",
+    "image": "images/m11guinandfeath.jpg",
     "description": "Demonstrates that acceleration due to gravity is not dependent on mass or shape.",
     "link": "subpages/m11.html",
     "infotext": "A metal disc and a piece of paper are placed in separate glass tubes. When there is air in the tubes the paper flutters down, while the metal disc drops quickly. When the air is evacuated from the tubes (using a rotary pump), both fall with the same acceleration. The vacuum pump is kept in the gallery of prep room B."
@@ -220,7 +220,7 @@
   },
   {
     "title": "M85 - conservation of Momentum",
-    "image": "images/m84inelastic.jpg",
+    "image": "images/m85consmom.jpg",
     "description": "Demonstrates conservation of momentum.",
     "link": "subpages/m85.html"
   },                         
@@ -241,7 +241,13 @@
     "image": "images/m88momcons.jpg",
     "description": "Demonstrates conservaton of momentum with a less intuitive setup.",
     "link": "subpages/m88.html"
-  },                         
+  },
+  {
+    "title": "M89- Air Track",
+    "image": "images/m89airtrack.jpg",
+    "description": "Demonstrates elastic collisions.",
+    "link": "subpages/m89.html"
+  },                          
  {
     "title": "M90 - Rocket and Block",
     "image": "images/m90rocketblock.jpg",
@@ -268,7 +274,7 @@
   },                         
  {
     "title": "M100 - Attwood's Machine",
-    "image": "images/m100Attwoods.jpg",
+    "image": "images/m100attwoods.jpg",
     "description": "An interesting rotational device to demonstrate the principles of motion with constant acceleration.",
     "link": "subpages/m100.html"
   },                         
@@ -323,7 +329,7 @@
  {
     "title": "M110 - Rotational Motion",
     "image": "images/m110rotmot.jpg",
-    "description": "Shows forces in rotational motion.",
+    "description": "Demonstrates the forces resulting from rotational motion.",
     "link": "subpages/m110.html"
   },                         
  {
@@ -400,7 +406,7 @@
   },
   {
     "title": "M144 - Ballistic Pendulum",
-    "image": "images/m143galpend.jpg",
+    "image": "images/m144balpend.jpg",
     "description": "Demonstrates conservation of energy.",
     "link": "subpages/m144.html"
   },
@@ -471,16 +477,16 @@
     "link": "subpages/m163.html"
   },
   {
-    "title": "M163 - Oscillator Coupled by Rod",
-    "image": "images/m163rodcouposc.jpg",
-    "description": "Demonstration of coupled oscillators.",
-    "link": "subpages/m163.html"
-  },
-  {
-    "title": "M163 - Oscillator Coupled by Bar",
-    "image": "images/m164barcouposc.jpg",
+    "title": "M164 - Oscillator Coupled by Rod",
+    "image": "images/m164rodcouposc.jpg",
     "description": "Demonstration of coupled oscillators.",
     "link": "subpages/m164.html"
+  },
+  {
+    "title": "M165 - Oscillator Coupled by Bar",
+    "image": "images/m165barcouposc.jpg",
+    "description": "Demonstration of coupled oscillators.",
+    "link": "subpages/m165.html"
   },
   {
     "title": "M166 - Pair of Wilberforce Pendulums",
@@ -521,11 +527,11 @@
   {
     "title": "M183 - Model of a Vernier Scale",
     "image": "images/m183vernierscale.jpg",
-    "description": "Model of a Vernier Scale.",
+    "description": "For teaching measurement and how to read a vernier scale.",
     "link": "subpages/m183.html"
   },
   {
-    "title": "M184 - Oscillating Lamina",
+    "title": "M184 - Model Micrometer Screwgauge",
     "image": "images/m184micrometer.jpg",
     "description": "Large model of a Micrometer Screwguage.",
     "link": "subpages/m184.html"

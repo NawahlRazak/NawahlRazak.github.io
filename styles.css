@@ -69,11 +69,14 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+    
 }
-    footer a {
+footer a {
+        
         background-color: azure;
         color:rgb(0, 36, 58);
         font-size: 20px;
+        
     }
 .demonline {
     width: 50%;
