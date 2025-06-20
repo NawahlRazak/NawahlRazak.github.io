@@ -507,6 +507,12 @@
     "link": "subpages/m171.html"
   },
   {
+    "title": "M172 - Driven Oscillations",
+    "image": "images/m172drivenpendulum.jpg",
+    "description": "Demonstration resonance.",
+    "link": "subpages/m172.html"
+  },
+  {
     "title": "M180 - Chemical balance",
     "image": "images/m180chembalance.jpg",
     "description": "Used to illustrate the sensitivity and stability of a chemical balance.",
