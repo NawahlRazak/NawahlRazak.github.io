@@ -176,142 +176,142 @@
     "link": "subpages/em61.html"
   },
 {
-    "title": "M68 - Equal Masses on Double Pulley",
-    "image": "images/m68doublepulley.jpg",
-    "description": "Illustrates Newton's 1st law in a less intuitive setup.",
-    "link": "subpages/m68.html"
+    "title": "EM62 - Giant Capacitor",
+    "image": "images/em62giantcap.jpg",
+    "description": " A large capacitor.",
+    "link": "subpages/em62.html"
   },
 {
-    "title": "M69 - Adjustable Pulley",
-    "image": "images/m69adjustpulley.jpg",
-    "description": "A pulley with adjustable height.",
-    "link": "subpages/m69.html"
+    "title": "M63 - 1 Farad Capacitor",
+    "image": "images/em631faradcap.jpg",
+    "description": "A capacitor with high capacitance.",
+    "link": "subpages/em63.html"
   },
 {
-    "title": "M80 - Trolleys",
-    "image": "images/m80trolleys.jpg",
-    "description": "Demonstrates elastic collisions.",
-    "link": "subpages/m80.html"
+    "title": "EM64 - Capacitor In A Glass",
+    "image": "images/em64capinglass.jpg",
+    "description": "Unusual capacitor.",
+    "link": "subpages/em64.html"
   },
 {
-    "title": "M81 - Newton's Cradle",
-    "image": "images/m81newtoncradle.jpg",
-    "description": "Demonstrates the conservation of momentum and kinetic energy in elastic collisions.",
-    "link": "subpages/m81.html"
+    "title": "EM65 - Canned Capacitors",
+    "image": "images/em65cannedcaps.jpg",
+    "description": "A series of capacitors.",
+    "link": "subpages/em65.html"
   },
 {
-    "title": "M82 - Mini Newton's Cradle",
-    "image": "images/m82minicradle.jpg",
-    "description": "Demonstrates the conservation of momentum and kinetic energy in elastic collisions.",
-    "link": "subpages/m82.html"
+    "title": "EM66 - Box Of Capacitors",
+    "image": "images/em66boxofcaps.jpg",
+    "description": "Shows a variety of capacitors.",
+    "link": "subpages/em66.html"
   },
 {
-    "title": "M83 - Balls on Rails",
-    "image": "images/m83ballsonrails.jpg",
-    "description": "Demonstrates the conservation of momentum and kinetic energy in elastic collisions.",
-    "link": "subpages/m83.html"
+    "title": "EM93 - Alternating Currents",
+    "image": "images/em93accurrents.jpg",
+    "description": "Demonstrates parallel resonance.",
+    "link": "subpages/EM93.html"
   },
 {
-    "title": "M84 - Inelastic collisions",
-    "image": "images/m84inelastic.jpg",
-    "description": "Demonstrates how momentum and kinetic energy are not conserved in inelastic collisions.",
-    "link": "subpages/m84.html"
+    "title": "EM94 - Tesla Coil",
+    "image": "images/em94teslacoil.jpg",
+    "description": "Produces extremely high voltage build-up.",
+    "link": "subpages/em94.html"
   },
   {
-    "title": "M85 - conservation of Momentum",
-    "image": "images/m85consmom.jpg",
-    "description": "Demonstrates conservation of momentum.",
-    "link": "subpages/m85.html"
+    "title": "EM96 - LR Circuit",
+    "image": "images/em96lrcirc.jpg",
+    "description": "Demonstrates the current variation in an LR circuit.",
+    "link": "subpages/em96.html"
   },                         
  {
-    "title": "M86 - Elastic & Inelastic collisions",
-    "image": "images/m86inelastic.jpg",
-    "description": "Demonstrates the difference between elastic and inelastic collisions.",
-    "link": "subpages/m86.html"
+    "title": "EM97 - Self-Inductance",
+    "image": "images/em97selfinduct.jpg",
+    "description": "Shows self-inductance using an LRC circuit.",
+    "link": "subpages/em97.html"
   },                         
  {
-    "title": "M87 - Superballs",
-    "image": "images/m87superballs.jpg",
-    "description": "To show objects with high coefficients of restitution.",
-    "link": "subpages/m87.html"
+    "title": "EM98 - Electrical Beats",
+    "image": "images/em98ebeats.jpg",
+    "description": "Demonstrates electrical beats.",
+    "link": "subpages/em98.html"
   },                         
  {
-    "title": "M88- Conservation of Momentum",
-    "image": "images/m88momcons.jpg",
-    "description": "Demonstrates conservaton of momentum with a less intuitive setup.",
-    "link": "subpages/m88.html"
+    "title": "EM100- Resonance",
+    "image": "images/em100resonance.jpg",
+    "description": "Demonstrates electrical resonance.",
+    "link": "subpages/em100.html"
   },
   {
-    "title": "M89- Air Track",
-    "image": "images/m89airtrack.jpg",
-    "description": "Demonstrates elastic collisions.",
-    "link": "subpages/m89.html"
+    "title": "EM121- Step-Up Transformer",
+    "image": "images/em121stepuptrans.jpg",
+    "description": "Impressive high-voltage demonstration.",
+    "link": "subpages/em121.html"
   },                          
  {
-    "title": "M90 - Rocket and Block",
-    "image": "images/m90rocketblock.jpg",
-    "description": "Demonstrates transfer of energy in elastic and inelastic collisions.",
-    "link": "subpages/m90.html"
+    "title": "EM125 - Parallel Currents",
+    "image": "images/em125parcur.jpg",
+    "description": "Shows the attraction and repulstion of parallel currents.",
+    "link": "subpages/em125.html"
   },                         
  {
-    "title": "M91 - Air Table",
-    "image": "images/m91airtable.jpg",
-    "description": "Demonstrates elastic collisions.",
-    "link": "subpages/m91.html"
+    "title": "EM126 - Step-Down Transformer",
+    "image": "images/em126stepdowntrans.jpg",
+    "description": "Demonstration of low voltage, high current conditions.",
+    "link": "subpages/em126.html"
   },                         
  {
-    "title": "M92 - Water Rocket",
-    "image": "images/m92waterrocket.jpg",
-    "description": "Demonstrates how conservation of momentum is behind the working of rockets.",
-    "link": "subpages/m92.html"
+    "title": "EM127 - Bulbs Light Via Inductance",
+    "image": "images/m127bulbinduct.jpg",
+    "description": "An entertaining demonstration of inductance.",
+    "link": "subpages/em127.html"
   },                         
  {
-    "title": "M93 - Balls on Tracks",
-    "image": "images/m93ballsontracks.jpg",
-    "description": "An interesting and somewhat counter-intuitive experiment.",
-    "link": "subpages/m93.html"
+    "title": "EM128 - Induction in a Coil",
+    "image": "images/em128coilinduct.jpg",
+    "description": "Shows electromagnetic induction in a coil of wire.",
+    "link": "subpages/em128.html"
   },                         
  {
-    "title": "M100 - Attwood's Machine",
-    "image": "images/m100attwoods.jpg",
-    "description": "An interesting rotational device to demonstrate the principles of motion with constant acceleration.",
-    "link": "subpages/m100.html"
+    "title": "EM129 - Self-Inductor",
+    "image": "images/em129selfinduct.jpg",
+    "description": "Shows self-inductance.",
+    "link": "subpages/em129.html"
   },                         
  {
-    "title": "M101 - Crowbar",
-    "image": "images/m101crowbar.jpg",
-    "description": "Illustrates the idea of moments.",
-    "link": "subpages/m101.html"
+    "title": "EM130 - Magnetic Braking",
+    "image": "images/em130magbrake.jpg",
+    "description": "Shows the effect of eddy currents.",
+    "link": "subpages/em130.html"
   },                         
  {
-    "title": "M102 - Rotational Motion",
-    "image": "images/m102rotation.jpg",
-    "description": "Demonstrates various principles of rotational motion.",
-    "link": "subpages/m102.html"
+    "title": "EM131 - Induction: Coil-to-Coil",
+    "image": "images/em131coiltocoil.jpg",
+    "description": "Shows induction from one coil to another.",
+    "link": "subpages/em131.html"
   },                         
  {
-    "title": "M103 - conservation of Momentum: Jet Propulsion",
-    "image": "images/m103jetprop.jpg",
-    "description": "Demonstrates conservation of momentum.",
-    "link": "subpages/m103.html"
+    "title": "EM132 - Induction: Spinning Magnet",
+    "image": "images/em132spinmag.jpg",
+    "description": "Shows induction from a changing magnetic field.",
+    "link": "subpages/em132.html"
   },                         
  {
-    "title": "M104 - Centrifugal Force",
-    "image": "images/m104centrifug.jpg",
-    "description": "Demonstrates the centripetal force on and centrifugal reaction by a constrained rotated object.",
-    "link": "subpages/m104.html"
+    "title": "EM133 - Earth Inductors",
+    "image": "images/em133earthinduc.jpg",
+    "description": "Shows induction using the Earth's magnetic field.",
+    "link": "subpages/em133.html"
   },                         
  {
-    "title": "M105 - Rotating Candles",
-    "image": "images/m105rotcandles.jpg",
-    "description": "Demonstrates the interplay between buoyancy, centripetal force, and the properties of a flame.",
-    "link": "subpages/m105.html"
+    "title": "EM141 - Galvanometer",
+    "image": "images/em141galvano.jpg",
+    "description": "Shows the mechanism of a galvanometer.",
+    "link": "subpages/em141.html"
   },                         
  {
-    "title": "M106 - Large Gyroscope",
-    "image": "images/m106gyrolarge.jpg",
-    "description": "Demonstrates various rotational principles.",
-    "link": "subpages/m106.html"
+    "title": "EM142 - Magnetic Field in Loop",
+    "image": "images/em142magfloop.jpg",
+    "description": "Shows the direction of the magnetic field in a current-carrying loop.",
+    "link": "subpages/em142.html"
   },                         
  {
     "title": "M108 - Angular Momentum",
@@ -320,112 +320,112 @@
     "link": "subpages/m108.html"
   },                         
  {
-    "title": "M109 - Small Gyroscopes",
-    "image": "images/m109gyrosmall.jpg",
-    "description": "Shows the working of gyroscopes.",
-    "link": "subpages/m109.html"
+    "title": "EM143 - Lodestone",
+    "image": "images/em143lodestone.jpg",
+    "description": "Shows a naturally occurring magnetic material.",
+    "link": "subpages/em143.html"
   },                         
  {
-    "title": "M110 - Rotational Motion",
-    "image": "images/m110rotmot.jpg",
-    "description": "Demonstrates the forces resulting from rotational motion.",
-    "link": "subpages/m110.html"
+    "title": "EM144 - North and South Poles",
+    "image": "images/em144northsouth.jpg",
+    "description": "Shows the dipole nature of magnets..",
+    "link": "subpages/em145.html"
   },                         
  {
-    "title": "M114 - Celts",
-    "image": "images/m114celts.jpg",
-    "description": "Demonstrates a unique spin reversal behavior.",
-    "link": "subpages/m114.html"
+    "title": "EM145 - Mahomet's Coffin",
+    "image": "images/em145mahomet.jpg",
+    "description": "Shows repulsion of like poles of a magnet.",
+    "link": "subpages/em145.html"
   },                         
  {
-    "title": "M120 - Hooke's Law",
-    "image": "images/m120hooks.jpg",
-    "description": "Demonstrates Hooke's Law.",
-    "link": "subpages/m120.html"
+    "title": "EM146 - Mahomet's Coffin - Rings",
+    "image": "images/em146mahometrings.jpg",
+    "description": "Shows repulsion of like poles of a magnet.",
+    "link": "subpages/em146.html"
   },                         
  {
-    "title": "M121 - Elastic Limit",
-    "image": "images/m121elimit.jpg",
-    "description": "Demonstrates Hooke's Law and the elastic limit of a material.",
-    "link": "subpages/m121.html"
+    "title": "EM147 - Magnetic Field - Bar",
+    "image": "images/em147magbar.jpg",
+    "description": "Shows the magnetic field of a bar magnet.",
+    "link": "subpages/em147.html"
   },                         
  {
-    "title": "M122 - Modulus of Rigidity",
-    "image": "images/m122rigidity.jpg",
-    "description": "Demonstrates the concepts of torsion and the modulus of rigidity.",
-    "link": "subpages/m122.html"
+    "title": "EM148 - Induced Magnetisation",
+    "image": "images/em148maginduc.jpg",
+    "description": "Demonstrates induced magnetisation.",
+    "link": "subpages/em148.html"
   },                         
  {
-    "title": "M130 - Harmonic motion",
-    "image": "images/m130harmonic.jpg",
-    "description": "Shows the equivalence of two types of simple harmonic motion.",
-    "link": "subpages/m130.html"
+    "title": "EM149 - Magnetic Field - Current",
+    "image": "images/em149magcur.jpg",
+    "description": "Shows the magnetic field due to a current-carrying wire.",
+    "link": "subpages/em149.html"
   },                         
  {
-    "title": "M131 - Cantilever Oscillations",
-    "image": "images/m131cantilever.jpg",
-    "description": "Demonstrates free-end oscillations.",
-    "link": "subpages/m131.html"
+    "title": "EM150 - Sticks",
+    "image": "images/em150sticks.jpg",
+    "description": "Demonstrates the magnetic force.",
+    "link": "subpages/em150.html"
   },                         
  {
-    "title": "M132 - Ball on a spring (SHM)",
-    "image": "images/m132ballonspring.jpg",
-    "description": "Demonstrates Simple Harmonic Motion with a ball on a spring.",
-    "link": "subpages/m132.html"
+    "title": "EM151 - Oersted's Experiment",
+    "image": "images/em151oersted.jpg",
+    "description": "Shows the direction of the magnetic field around a current-carrying wire.",
+    "link": "subpages/em151.html"
   },                         
  {
-    "title": "M133 - Oscillating ball on slope (SHM)",
-    "image": "images/m133oscball.jpg",
-    "description": "Demonstrates Harmonic Motion.",
-    "link": "subpages/m133.html"
+    "title": "EM152 - Force on Moving Charge",
+    "image": "images/em152forceoncharge.jpg",
+    "description": "Shows the force on a moving charge in a magnetic field.",
+    "link": "subpages/em152.html"
   },                         
  {
-    "title": "M140 - Simple Pendulums",
-    "image": "images/m140simpend.jpg",
-    "description": "Demonstrates Oscillations using a Simple Pendulum.",
-    "link": "subpages/m140.html"
+    "title": "EM153 - Faraday Cage",
+    "image": "images/em153farcage.jpg",
+    "description": "Shows wavelength-dependent transmission of electromagnetic waves.",
+    "link": "subpages/em153.html"
   },                         
  {
-    "title": "M141 - Period of Oscillation",
-    "image": "images/m141period.jpg",
-    "description": "Shows that the period of oscillation is independent of mass but proportional to the length of string.",
-    "link": "subpages/m141.html"
+    "title": "EM155 - Hysteresis",
+    "image": "images/em155hysteresis.jpg",
+    "description": "Demonstrates hysteresis.",
+    "link": "subpages/em155.html"
   },                         
  {
-    "title": "M142 - Whirligig Pendulum",
-    "image": "images/m142whirligig.jpg",
-    "description": "Mostly Entertaining.  Shows the conversion energy (like wind or elastic energy in a string) into rotational motion.",
-    "link": "subpages/m142.html"
+    "title": "EM156 - Curie Temperature",
+    "image": "images/em156curietemp.jpg",
+    "description": "Demonstrates the Curie point.",
+    "link": "subpages/em156.html"
   },                         
  {
-    "title": "M143 - Galilieo's Pendulum",
-    "image": "images/m143galpend.jpg",
-    "description": "Shows the transformation from potential energy to kinetic energy and back again.",
-    "link": "subpages/m143.html"
+    "title": "EM157 - Magnetic Field - Disc",
+    "image": "images/em157mfielddisk.jpg",
+    "description": "Shows the magnetic field surrounding a disc.",
+    "link": "subpages/em157.html"
   },
   {
-    "title": "M144 - Ballistic Pendulum",
-    "image": "images/m144balpend.jpg",
-    "description": "Demonstrates conservation of energy.",
-    "link": "subpages/m144.html"
+    "title": "EM170 - Cathode Ray Tubes",
+    "image": "images/em170cathray.jpg",
+    "description": "Produce electron beams.",
+    "link": "subpages/em170.html"
   },
   {
-    "title": "M145 - Probabalistic Pendulum",
-    "image": "images/m145probapend.jpg",
-    "description": "Demonstrates conservation of energy.",
-    "link": "subpages/m145.html"
+    "title": "EM171 - Thermionics: Diodes - Rectification",
+    "image": "images/em171diodrect.jpg",
+    "description": "Demonstrates converstion from AC to DC current.",
+    "link": "subpages/em171.html"
   },
   {
-    "title": "M146 - Ring Pendulum",
-    "image": "images/m146ringpend.jpg",
-    "description": "Shows that a ring and a straight pendulum have the same period if the length of the pendulum is equal to the diameter of the ring.",
-    "link": "subpages/m146.html"
+    "title": "EM172 - Discharge Tubes",
+    "image": "images/em172dischargetubes.jpg",
+    "description": "Demonstrate phenomena related to electric discharge in gases",
+    "link": "subpages/EM172.html"
   },
   {
-    "title": "M147 - Different Lengths Pendulum",
-    "image": "images/m147difflenthpend.jpg",
-    "description": "Demonstrates how the period of a pendulum depends on its length.",
-    "link": "subpages/m147.html"
+    "title": "EM173 - Positive Rays",
+    "image": "images/em173posrays.jpg",
+    "description": "Tube with slotted cathode",
+    "link": "subpages/em173.html"
   },
   {
     "title": "M148 - Oscillating Lamina",
