@@ -1,167 +1,435 @@
 [
   {
-    "title": "M11 - Guinea & Feather",
-    "image": "images/m11.png",
-    "description": "Demonstrates that acceleration due to gravity is not dependent on mass or shape.",
-    "link": "subpages/m11.html",
-    "infotext": "A metal disc and a piece of paper are placed in separate glass tubes. When there is air in the tubes the paper flutters down, while the metal disc drops quickly. When the air is evacuated from the tubes (using a rotary pump), both fall with the same acceleration. The vacuum pump is kept in the gallery of prep room B."
-   
+    "title": "H1 - Thermal Expansion",
+    "image": "images/h1texpan.jpg",
+    "description": "Demonstrates thermal expansion.",
+    "link": "subpages/h1.html"     
 },
   {
-    "title": "M12 - The Gun that never misses",
-    "image": "images/m12.png",
-    "description": "This demonstrates the independence of the horizontal and vertical components of motion with a less intuitive setup. ",
-    "link": "subpages/m12.html"
+    "title": "H2 - Contraction on Cooling",
+    "image": "images/h2contractcool.jpg",
+    "description": "To show force exerted on contraction.",
+    "link": "subpages/h2.html"
   },
   {
-    "title": "M13 - Pop and Drop",
-    "image": "images/m13popanddrop.jpg",
-    "description": "This demonstrates the independence of the vertical and horizontal components of velocity.",
-    "link": "subpages/m13.html"
+    "title": "H6 - Thermal Expansion of Liquids",
+    "image": "images/h3expandliq.jpg",
+    "description": "Model Dulong and Petit apparatus.",
+    "link": "subpages/h6.html"
   },
-   {
-    "title": "M14 - Rolling Cart Catches Ball",
-    "image": "images/m14rollingcart.jpg",
-    "description": "This demonstrates the independence of the vertical and horizontal components of velocity.",
-    "link": "subpages/m14.html"
+  {
+    "title": "H7 - Thermal Expansion",
+    "image": "images/h7thermexp.jpg",
+    "description": "Shows the expansion of a metal tube due to heating.",
+    "link": "subpages/h7.html"
   },
 
   {
-    "title": "M15 - Center of Mass",
-    "image": "images/m15com.jpg",
-    "description": "This demonstrates the concept of center of mass.",
-    "link": "subpages/m15.html"
+    "title": "H8 - Thermal Expansion",
+    "image": "images/h8thermexp.jpg",
+    "description": "Shows thermal expansion of metal ball by heating.",
+    "link": "subpages/h8.html"
   },
   {
-    "title": "M16 - Principle of Moments",
-    "image": "images/m16moments.jpg",
-    "description": "This demonstrates the principle of moments.",
-    "link": "subpages/m16.html"
+    "title": "H12 - Regelation of Ice",
+    "image": "images/h12icereg.jpg",
+    "description": "Shows metling of ice to due pressure.",
+    "link": "subpages/h12.html"
   },
   {
-    "title": "M17 - Center of Gravity",
-    "image": "images/m17cog.jpg",
-    "description": "This demonstrates the concept of centre of gravity.",
-    "link": "subpages/m17.html"
+    "title": "H15 - Cooling by Evaporation",
+    "image": "images/h15coolbyevap.jpg",
+    "description": "Shows cooling by evaporation.",
+    "link": "subpages/h15.html"
   },
   {
-    "title": "M18- Plunger",
-    "image": "images/m18plunger.jpg",
-    "description": "This demonstrates the concept of the center of mass frame.",
-    "link": "subpages/m18.html"
+    "title": "H17 - Vapour pressure",
+    "image": "images/h17vappress.jpg",
+    "description": "Demonstrates increased pressure due to vaporisation.",
+    "link": "subpages/h17.html"
   },
   {
-    "title": "M19- Double Cone",
-    "image": "images/m19cone.jpg",
-    "description": "This illustrates the concept of centre of mass with a less intuitive setup.",
-    "link": "subpages/m19.html"
+    "title": "H18 - tbd",
+    "image": "images/h18.jpg",
+    "description": "tbd",
+    "link": "subpages/h18.html"
   },  
   {
-    "title": "M20- Inertial Reference Frame",
-    "image": "images/m20iframe.jpg",
-    "description": "Demonstrates the concept of an inertial reference frame.",
-    "link": "subpages/m20.html"
+    "title": "H20 - Cloud Chamber",
+    "image": "images/h20cloudchamb.jpg",
+    "description": "tbd",
+    "link": "subpages/h20.html"
   },  
   {
-    "title": "M21- Ball Falling into cup",
-    "image": "images/m21ballincup.jpg",
-    "description": "Demonstrates the absence of the gravitational force in the reference frame of a free-falling system.",
-    "link": "subpages/m21.html"
+    "title": "H21 - Dippy Dillies",
+    "image": "images/h21dippy.jpg",
+    "description": "Nice demonstration of evaporative cooling.",
+    "link": "subpages/h21.html"
   },  
   {
-    "title": "M22- Slinky and Stairs",
-    "image": "images/m22slinky.jpg",
-    "description": "Demonstrates several physics principles, including wave motion, Hooke's law, and the effects of gravity.",
-    "link": "subpages/m22.html"
+    "title": "H24 - Critical Point of C02",
+    "image": "images/h24critptco2.jpg",
+    "description": "Shows the compressibility at the critical point.",
+    "link": "subpages/h24.html"
   },
   {
-    "title": "M23- Falling Chimney",
-    "image": "images/m23chimney.jpg",
-    "description": "Visually demonstrates the effects of rotational inertia and angular acceleration on a rotating object.",
-    "link": "subpages/m23.html"
+    "title": "H25 - Hygrometers",
+    "image": "images/h25hygrometer.jpg",
+    "description": "For measuring humidity.",
+    "link": "subpages/h25.html"
   },
   {
-    "title": "M30- Inertia",
-    "image": "images/m30inertia.jpg",
-    "description": "Demonstrates the concept of inertia.",
-    "link": "subpages/m30.html"
+    "title": "H31 - Thermal Conductivity",
+    "image": "images/h31thermcond.jpg",
+    "description": "Shows the varying thermal conductivity of different materials.",
+    "link": "subpages/h31.html"
   },
   {
-    "title": "M40- Parallelogram of forces",
-    "image": "images/m40parallelog.jpg",
-    "description": "Demonstrates the parallelogram rule for summing vectors.",
-    "link": "subpages/m40.html"
+    "title": "H32 - Thermal Conductivity",
+    "image": "images/h32minelamp.jpg",
+    "description": "Demonstrates the principle of Miner's lamp.",
+    "link": "subpages/h32.html"
   },
   {
-    "title": "M41- Resultant of Vectors in 3D",
-    "image": "images/m41resultant.jpg",
-    "description": "This shows that equilibrium of forces takes place in 3 dimensions.",
-    "link": "subpages/m41.html"
+    "title": "H33 - Convection",
+    "image": "images/h33convec.jpg",
+    "description": "Model of hot water heating system.",
+    "link": "subpages/h33.html"
   },
   {
-    "title": "M42- Components of forces",
-    "image": "images/m42fcomponents.jpg",
-    "description": "Demonstrates the independence of the compenents of forces.",
-    "link": "subpages/m42.html"
-  },
-  {
-    "title": "M43- Aeroplane on a String",
-    "image": "images/m43aeroplane.jpg",
-    "description": "Demonstrates the principles of centripetal force, angular velocity, and rotational kinetic energy.",
-    "link": "subpages/m43.html"
-  },
-  {
-    "title": "M44- Tangential motion",
-    "image": "images/m44tangent.jpg",
-    "description": "Demonstrates Newton's First Law.",
-    "link": "subpages/m44.html"
+    "title": "H36- Radiation",
+    "image": "images/h36rad.jpg",
+    "description": "Demonstrates thermal radiation.",
+    "link": "subpages/h36.html"
   },  
   {
-    "title": "M46- Sphere's on Inclined Plane",
-    "image": "images/m46sphereonplane.jpg",
-    "description": "demonstrates the principles of conservation of energy, rotational motion, and the relationship between linear and rotational kinetic energy.",
-    "link": "subpages/m46.html"
+    "title": "H37 - Heat Absorption",
+    "image": "images/h37heatabs.jpg",
+    "description": "tbd",
+    "link": "subpages/h37.html"
+  },
+  {
+    "title": "H38 - Radiation",
+    "image": "images/h38rad.jpg",
+    "description": "Shows the reflection, absorption and emission properties of materials.",
+    "link": "subpages/h38.html"
+  },  
+  {
+    "title": "H39 - Radiation",
+    "image": "images/h39rad.jpg",
+    "description": "Shows an interesting radiation-based thermometer.",
+    "link": "subpages/h39.html"
   },    
    {
-    "title": "M47- Stability of a ladder",
-    "image": "images/m47stableladder.jpg",
-    "description": "This is an example of three forces in equilibrium.",
-    "link": "subpages/m47.html"
+    "title": "H42 - Radiometer",
+    "image": "images/h42radiom.jpg",
+    "description": "Used to measure radiant flux.",
+    "link": "subpages/h42.html"
   },
   {
-    "title": "M48- Roller on Inclined Plane",
-    "image": "images/m48rolleronplane.jpg",
-    "description": "demonstrates that rolling friction is smaller than sliding friction.",
-    "link": "subpages/m48.html"
+    "title": "H45 - Thermocouple",
+    "image": "images/h45thermocouple.jpg",
+    "description": "To measure temperature.",
+    "link": "subpages/h45.html"
   },
     {
-    "title": "M49- Loaded Block on Inclined Plane",
-    "image": "images/m49loadedblockonplane.jpg",
-    "description": "Shows in principle how the coefficients of static and kinetic friction can be determined.",
-    "link": "subpages/m49.html"
+    "title": "H46 - Radiation: Diathermancy",
+    "image": "images/h46diathermancy.jpg",
+    "description": "To show that a solution of Iodine in carbon disulphide, opaque to visible light, is transparent to infrared.",
+    "link": "subpages/h46.html"
   },
   {
-    "title": "M50- Block on Inclined Plane",
-    "image": "images/m50blockonplane.jpg",
-    "description": "Demonstrates friction.",
-    "link": "subpages/m50.html"
+    "title": "H47 - Indicators of Temperature",
+    "image": "images/h47tempind.jpg",
+    "description": "Interesting indicators of temperature.",
+    "link": "subpages/h47.html"
   },
   {
-    "title": "M60- Varying tension in string",
-    "image": "images/m60varytension.jpg",
-    "description": "Demonstrates varying tension due to centripetal acceleration.",
-    "link": "subpages/m60.html"
+    "title": "H48 - Berthelot Apparatus",
+    "image": "images/h48berthelot.jpg",
+    "description": "For the vaporisation of liquids.",
+    "link": "subpages/h48.html"
   },
   {
-    "title": "M61 - Pulley Systems",
-    "image": "images/m61pulleys.jpg",
-    "description": "Demonstrates various pulleys.",
-    "link": "subpages/m61.html"
+    "title": "H49 - Bunsen Ice Calorimeter",
+    "image": "images/h49bunsenice.jpg",
+    "description": "A device that uses the melting of ice to measure heat",
+    "link": "subpages/h49.html"
   },
   {
-    "title": "M62- Resolution of forces",
-    "image": "images/m62fresolution.jpg",
-    "description": "Shows the forces exerted on a block resting on an inclined plane.",
-    "link": "subpages/m62.html"
-  }  
+    "title": "H50 - Heat Engines",
+    "image": "images/h50heateng.jpg",
+    "description": "Demonstration of a clever heat engine.",
+    "link": "subpages/h50.html"
+  },
+{
+    "title": "H51 - Strain: Bologne Phials",
+    "image": "images/h51bphial.jpg",
+    "description": "a specialized glass bottle known for its unique strength and fragility",
+    "link": "subpages/h51.html"
+  },
+{
+    "title": "H52 - Portable De-ioniser",
+    "image": "images/h52deioniz.jpg",
+    "description": "Removes minerals from water.",
+    "link": "subpages/h52.html"
+  },
+{
+    "title": "HY1 - Upthrust on Floating Body",
+    "image": "images/hy1upthrust.jpg",
+    "description": "Shows that upthrust increases as immersed volume increases.",
+    "link": "subpages/hy1.html"
+  },
+{
+    "title": "HY2 - Liquid Levels",
+    "image": "images/hy2liqlev.jpg",
+    "description": "Liquid levels are independent of the shape of the container.",
+    "link": "subpages/hy2.html"
+  },
+{
+    "title": "HY5 - Fluid Pressure",
+    "image": "images/hy5fluidpress.jpg",
+    "description": "Shows the dependence of fluid pressure at a point on the weight of fluid above it.",
+    "link": "subpages/hy5.html"
+  },
+{
+    "title": "HY6 - Hydrostatic Paradox: Pascal's Vases",
+    "image": "images/hy6pascpar.jpg",
+    "description": "Shows that pressure at a given depth in a fluid is the same regardless of the shape or volume of the container holding the fluid.",
+    "link": "subpages/hy6.html"
+  },
+{
+    "title": "HY7 - Archimedes' principle",
+    "image": "images/hy7archimedes.jpg",
+    "description": "Demonstrates Archimedes' principle: the buoyant force on an object submerged in a fluid is equal to the weight of the fluid displaced by the object.",
+    "link": "subpages/hy7.html"
+  },
+{
+    "title": "HY8 - Upthrust",
+    "image": "images/hy8upthrust.jpg",
+    "description": "Demonstrates Archimede's principle and the bouyant force.",
+    "link": "subpages/hy8.html"
+  },
+  {
+    "title": "HY10 - Buoys",
+    "image": "images/hy10buoys.jpg",
+    "description": "Floating devices that rely on bouyancy to stay afloat.",
+    "link": "subpages/hy10.html"
+  },                         
+ {
+    "title": "HY11 - Cartesian Diver",
+    "image": "images/hy11cartdiv.jpg",
+    "description": "Demonstrates the interplay between the properties of gas (air) and liquid (water).",
+    "link": "subpages/hy11.html"
+  },                         
+ {
+    "title": "HY12 - Vortex Action",
+    "image": "images/hy12vortex.jpg",
+    "description": "Demonstrates the action of a vortex.",
+    "link": "subpages/hy12.html"
+  },                         
+ {
+    "title": "HD4 - Relaxation Oscillations",
+    "image": "images/hd4relosc.jpg",
+    "description": "Demonstrates relaxation oscillations.",
+    "link": "subpages/hd4.html"
+  },
+  {
+    "title": "HD5- Relaxation Oscillations",
+    "image": "images/hd5relosc.jpg",
+    "description": "Demonstrates relaxation oscillations.",
+    "link": "subpages/hd5.html"
+  },                          
+ {
+    "title": "HD6 - Buoyancy - Shape",
+    "image": "images/hd6buoyshape.jpg",
+    "description": "Shows the importance of shape in buoyancy.",
+    "link": "subpages/hd6.html"
+  },                         
+ {
+    "title": "HD11 - Torricelli's Law of Efflux",
+    "image": "images/hd11toricelli.jpg",
+    "description": "Shows dependence of liquid pressure at a point on the volume of liquid above it.",
+    "link": "subpages/hd11.html"
+  },                         
+ {
+    "title": "AP1 - Magdeberg Hemispheres",
+    "image": "images/ap1magdeberg.jpg",
+    "description": "Shows the strength of atmospheric pressure.",
+    "link": "subpages/ap1.html"
+  },
+  {
+    "title": "AP3 - Pressure gauges",
+    "image": "images/ap3pguage.jpg",
+    "description": "Used to measure air pressure.",
+    "link": "subpages/ap3.html"
+  },
+  {
+    "title": "AP4 - Air Weighing",
+    "image": "images/ap4airweight.jpg",
+    "description": "Weighing air.",
+    "link": "subpages/ap4.html"
+  },  
+   {
+    "title": "AP7 - Air The Bernoulli Effect",
+    "image": "images/ap7bernoulli.jpg",
+    "description": "Demonstrates the force due to pressure difference.",
+    "link": "subpages/ap7.html"
+  },                            
+ {
+    "title": "AP10 - Manometer",
+    "image": "images/ap10manom.jpg",
+    "description": "Used for atmospheric pressure measurements.",
+    "link": "subpages/ap10.html"
+  },                         
+ {
+    "title": "AP11 - Bell Jars",
+    "image": "images/ap11belljar.jpg",
+    "description": "Accesory to demonstrations.",
+    "link": "subpages/ap11.html"
+  },                         
+ {
+    "title": "AP12 - Hand Pump",
+    "image": "images/ap12pump.jpg",
+    "description": "Used for evacuation of vessels.",
+    "link": "subpages/ap12.html"
+  },                         
+ {
+    "title": "AP13 - Glass Syringes",
+    "image": "images/ap13syringe.jpg",
+    "description": "Accesory to demonstrations.",
+    "link": "subpages/ap13.html"
+  },                         
+ {
+    "title": "AD1 - Bellows and Blower",
+    "image": "images/ad1blower.jpg",
+    "description": "Accesory to demonstrations.",
+    "link": "subpages/ad1.html"
+  },                         
+ {
+    "title": "AD2 - Venturi",
+    "image": "images/ad2venturi.jpg",
+    "description": "Shows the distribution of pressure through a non-uniform cross-section.",
+    "link": "subpages/ad2.html"
+  },                         
+ {
+    "title": "AD6 - Pumps",
+    "image": "images/ad6pumps.jpg",
+    "description": "Shows the mechanism of diffusion pumps.",
+    "link": "subpages/ad6.html"
+  },                         
+ {
+    "title": "S1 - Propagation Needs a Medium",
+    "image": "images/s1sound.jpg",
+    "description": "Shows that sound needs a medium in which to propagate.",
+    "link": "subpages/s1.html"
+  },                         
+ {
+    "title": "S2 - Organ Pipes",
+    "image": "images/s2orgpipes.jpg",
+    "description": "Demonstrates shape of sound waves.",
+    "link": "subpages/s2.html"
+  },                                           
+ {
+    "title": "S3 - 'Gauze Tones'- Beats",
+    "image": "images/s3gauzetone.jpg",
+    "description": "Demonstrates the phenomenon where sound is produced by a flame burning near a wire gauze or grid within a tube.",
+    "link": "subpages/s3.html"
+  },                         
+ {
+    "title": "S5 - Doppler effect",
+    "image": "images/s5doppler.jpg",
+    "description": "Demonstrates the Doppler effect.",
+    "link": "subpages/s5.html"
+  },                         
+ {
+    "title": "S7 - Galton's Whistle and Sensitive Flame",
+    "image": "images/s7gwhistle.jpg",
+    "description": "A high-frequency whistle invented by Sir Francis Galton in 1876 to test the upper limits of human hearing and to study animal hearing.",
+    "link": "subpages/s7.html"
+  },                         
+ {
+    "title": "S8 - Periodic Pulses",
+    "image": "images/S8pulses.jpg",
+    "description": "tbd.",
+    "link": "subpages/s8.html"
+  },                         
+ {
+    "title": "S9 - Siren",
+    "image": "images/s9siren.jpg",
+    "description": "tbd.",
+    "link": "subpages/s9.html"
+  },                         
+ {
+    "title": "S10 - Resonance",
+    "image": "images/s10resonance.jpg",
+    "description": "Demonstrate resonance in sound waves.",
+    "link": "subpages/s10.html"
+  },                         
+ {
+    "title": "S12 - Tuning Forks",
+    "image": "images/s12tforks.jpg",
+    "description": "Demonstrates different wavelengths/frequencies of sound",
+    "link": "subpages/em150s12.html"
+  },                         
+ {
+    "title": "EM151 - Oersted's Experiment",
+    "image": "images/em151oersted.jpg",
+    "description": "Shows the direction of the magnetic field around a current-carrying wire.",
+    "link": "subpages/em151.html"
+  },                         
+ {
+    "title": "EM152 - Force on Moving Charge",
+    "image": "images/em152forceoncharge.jpg",
+    "description": "Shows the force on a moving charge in a magnetic field.",
+    "link": "subpages/em152.html"
+  },                         
+ {
+    "title": "EM153 - Faraday Cage",
+    "image": "images/em153farcage.jpg",
+    "description": "Shows wavelength-dependent transmission of electromagnetic waves.",
+    "link": "subpages/em153.html"
+  },                         
+ {
+    "title": "EM155 - Hysteresis",
+    "image": "images/em155hysteresis.jpg",
+    "description": "Demonstrates hysteresis.",
+    "link": "subpages/em155.html"
+  },                         
+ {
+    "title": "EM156 - Curie Temperature",
+    "image": "images/em156curietemp.jpg",
+    "description": "Demonstrates the Curie point.",
+    "link": "subpages/em156.html"
+  },                         
+ {
+    "title": "EM157 - Magnetic Field - Disc",
+    "image": "images/em157mfielddisk.jpg",
+    "description": "Shows the magnetic field surrounding a disc.",
+    "link": "subpages/em157.html"
+  },
+  {
+    "title": "EM170 - Cathode Ray Tubes",
+    "image": "images/em170cathray.jpg",
+    "description": "Produce electron beams.",
+    "link": "subpages/em170.html"
+  },
+  {
+    "title": "EM171 - Thermionics: Diodes - Rectification",
+    "image": "images/em171diodrect.jpg",
+    "description": "Demonstrates converstion from AC to DC current.",
+    "link": "subpages/em171.html"
+  },
+  {
+    "title": "EM172 - Discharge Tubes",
+    "image": "images/em172dischargetubes.jpg",
+    "description": "Demonstrate phenomena related to electric discharge in gases",
+    "link": "subpages/EM172.html"
+  },
+  {
+    "title": "EM173 - Positive Rays",
+    "image": "images/em173posrays.jpg",
+    "description": "Tube with slotted cathode",
+    "link": "subpages/em173.html"
+  }
 ]

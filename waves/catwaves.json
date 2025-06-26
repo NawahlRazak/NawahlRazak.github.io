@@ -1,167 +1,430 @@
 [
   {
-    "title": "M11 - Guinea & Feather",
-    "image": "images/m11.png",
-    "description": "Demonstrates that acceleration due to gravity is not dependent on mass or shape.",
-    "link": "subpages/m11.html",
-    "infotext": "A metal disc and a piece of paper are placed in separate glass tubes. When there is air in the tubes the paper flutters down, while the metal disc drops quickly. When the air is evacuated from the tubes (using a rotary pump), both fall with the same acceleration. The vacuum pump is kept in the gallery of prep room B."
-   
+    "title": "EM1 - Galvanometer",
+    "image": "images/em1galvano.jpg",
+    "description": "detects or measures small currents and voltages by using a moving coil.",
+    "link": "subpages/em1.html",
+    "infotext": "Attachments are available to change the sensitivity of the galvanometer. The box containing the attachments lies next to it on the shelf."  
 },
   {
-    "title": "M12 - The Gun that never misses",
-    "image": "images/m12.png",
-    "description": "This demonstrates the independence of the horizontal and vertical components of motion with a less intuitive setup. ",
-    "link": "subpages/m12.html"
+    "title": "EM2 - Audio Oscillator",
+    "image": "images/em2audioosc.jpg",
+    "description": "Different circuits and components are used to create different waveform shapes (sine, square, triangle, etc.).  ",
+    "link": "subpages/em2.html"
   },
   {
-    "title": "M13 - Pop and Drop",
-    "image": "images/m13popanddrop.jpg",
-    "description": "This demonstrates the independence of the vertical and horizontal components of velocity.",
-    "link": "subpages/m13.html"
+    "title": "EM3 - Variac",
+    "image": "images/em3variac.jpg",
+    "description": "Power supply used to provide a variable AC voltage output, allowing for precise adjustments of voltage levels in various applications.",
+    "link": "subpages/em3.html"
   },
    {
-    "title": "M14 - Rolling Cart Catches Ball",
-    "image": "images/m14rollingcart.jpg",
-    "description": "This demonstrates the independence of the vertical and horizontal components of velocity.",
-    "link": "subpages/m14.html"
+    "title": "EM21 - Charging by Induction",
+    
+    "description": "Shows charging by induction.",
+    "link": "subpages/em21.html"
   },
 
   {
-    "title": "M15 - Center of Mass",
-    "image": "images/m15com.jpg",
-    "description": "This demonstrates the concept of center of mass.",
-    "link": "subpages/m15.html"
+    "title": "EM22 - Faraday's Ice Pail",
+    "description": "Shows distribution of charge.",
+    "image": "images/em22faradice.jpg",
+    "link": "subpages/em22.html"
   },
   {
-    "title": "M16 - Principle of Moments",
-    "image": "images/m16moments.jpg",
-    "description": "This demonstrates the principle of moments.",
-    "link": "subpages/m16.html"
+    "title": "EM23 - Charge On Concentric Shells",
+    "image": "images/em23cshellcharge.jpg",
+    "description": "Shows the distribution of charge on concentric shells.",
+    "link": "subpages/em23.html"
   },
   {
-    "title": "M17 - Center of Gravity",
-    "image": "images/m17cog.jpg",
-    "description": "This demonstrates the concept of centre of gravity.",
-    "link": "subpages/m17.html"
+    "title": "EM24 - Center of Gravity",
+    "image": "images/em24irregshapecharge.jpg",
+    "description": "Shows the distribution of charge on irregularly shaped objects..",
+    "link": "subpages/em24.html"
   },
   {
-    "title": "M18- Plunger",
-    "image": "images/m18plunger.jpg",
-    "description": "This demonstrates the concept of the center of mass frame.",
-    "link": "subpages/m18.html"
+    "title": "EM25 - Charging By Induction",
+    "image": "images/em25chbyinduc.jpg",
+    "description": "Shows charging by induction.",
+    "link": "subpages/em25.html"
   },
   {
-    "title": "M19- Double Cone",
-    "image": "images/m19cone.jpg",
-    "description": "This illustrates the concept of centre of mass with a less intuitive setup.",
-    "link": "subpages/m19.html"
+    "title": "EM26 - Van de Graaf Generators",
+    "image": "images/em26vdgraaf.jpg",
+    "description": "Generates static electricity.",
+    "link": "subpages/em26.html"
   },  
   {
-    "title": "M20- Inertial Reference Frame",
-    "image": "images/m20iframe.jpg",
-    "description": "Demonstrates the concept of an inertial reference frame.",
-    "link": "subpages/m20.html"
+    "title": "EM27 - Box Of Electrostatic Demos",
+    "image": "images/em27electrostat.jpg",
+    "description": "Demonstrates concepts in electrostatics.",
+    "link": "subpages/em27.html"
   },  
   {
-    "title": "M21- Ball Falling into cup",
-    "image": "images/m21ballincup.jpg",
-    "description": "Demonstrates the absence of the gravitational force in the reference frame of a free-falling system.",
-    "link": "subpages/m21.html"
+    "title": "EM28 - Capacitance",
+    "image": "images/em28cap.jpg",
+    "description": "Demonstrates the concept of capacitance.",
+    "link": "subpages/em28.html"
   },  
   {
-    "title": "M22- Slinky and Stairs",
-    "image": "images/m22slinky.jpg",
-    "description": "Demonstrates several physics principles, including wave motion, Hooke's law, and the effects of gravity.",
-    "link": "subpages/m22.html"
+    "title": "EM29 -Capacitor With Dielectric",
+    "image": "images/em29capwithdi.jpg",
+    "description": "Shows the effect of a dielectric on capacitance.",
+    "link": "subpages/em29.html"
   },
   {
-    "title": "M23- Falling Chimney",
-    "image": "images/m23chimney.jpg",
-    "description": "Visually demonstrates the effects of rotational inertia and angular acceleration on a rotating object.",
-    "link": "subpages/m23.html"
+    "title": "EM30 - Capacitor With Ball",
+    "image": "images/em30capwithball.jpg",
+    "description": "Simple electrostatics demonstration.",
+    "link": "subpages/em30.html"
   },
   {
-    "title": "M30- Inertia",
-    "image": "images/m30inertia.jpg",
-    "description": "Demonstrates the concept of inertia.",
-    "link": "subpages/m30.html"
+    "title": "EM31 - Spark Gaps",
+    "image": "images/em31sparkgaps.jpg",
+    "description": "Amusing electrostatics demonstration.",
+    "link": "subpages/em31.html"
   },
   {
-    "title": "M40- Parallelogram of forces",
-    "image": "images/m40parallelog.jpg",
-    "description": "Demonstrates the parallelogram rule for summing vectors.",
-    "link": "subpages/m40.html"
+    "title": "EM32 - Variable Capacitors",
+    "image": "images/em32varcap.jpg",
+    "description": "Shows the effect of plate distance on capacitance.",
+    "link": "subpages/em32.html"
   },
   {
-    "title": "M41- Resultant of Vectors in 3D",
-    "image": "images/m41resultant.jpg",
-    "description": "This shows that equilibrium of forces takes place in 3 dimensions.",
-    "link": "subpages/m41.html"
+    "title": "EM33 - Kelvin Current Balance",
+    "image": "images/em33kelcurbal.jpg",
+    "description": "a device, also known as an ampere balance or current balance, used to precisely measure electric current",
+    "link": "subpages/em33.html"
   },
   {
-    "title": "M42- Components of forces",
-    "image": "images/m42fcomponents.jpg",
-    "description": "Demonstrates the independence of the compenents of forces.",
-    "link": "subpages/m42.html"
+    "title": "EM34- The Electrostatic Field",
+    "image": "images/em34esfield.jpg",
+    "description": "Shows the direction of the electrostatic field.",
+    "link": "subpages/em34.html"
+  },  
+  {
+    "title": "EM35 - The Electrophorous",
+    "image": "images/em35electropho.jpg",
+    "description": "Illustrates the basic principle of many electrostatic machines.",
+    "link": "subpages/em35.html"
   },
   {
-    "title": "M43- Aeroplane on a String",
-    "image": "images/m43aeroplane.jpg",
-    "description": "Demonstrates the principles of centripetal force, angular velocity, and rotational kinetic energy.",
-    "link": "subpages/m43.html"
-  },
-  {
-    "title": "M44- Tangential motion",
+    "title": "M44 - Tangential motion",
     "image": "images/m44tangent.jpg",
     "description": "Demonstrates Newton's First Law.",
     "link": "subpages/m44.html"
   },  
   {
-    "title": "M46- Sphere's on Inclined Plane",
-    "image": "images/m46sphereonplane.jpg",
-    "description": "demonstrates the principles of conservation of energy, rotational motion, and the relationship between linear and rotational kinetic energy.",
-    "link": "subpages/m46.html"
+    "title": "EM36 - Triboelectricity",
+    "image": "images/em36triboelec.jpg",
+    "description": "Basic experiments on electrification by contact and friction.",
+    "link": "subpages/em36.html"
   },    
    {
-    "title": "M47- Stability of a ladder",
-    "image": "images/m47stableladder.jpg",
-    "description": "This is an example of three forces in equilibrium.",
-    "link": "subpages/m47.html"
+    "title": "EM37 - Swinging Pith Ball",
+    "image": "images/em37swingpithball.jpg",
+    "description": "Simple electrostatics demonstration.",
+    "link": "subpages/em37.html"
   },
   {
-    "title": "M48- Roller on Inclined Plane",
-    "image": "images/m48rolleronplane.jpg",
-    "description": "demonstrates that rolling friction is smaller than sliding friction.",
-    "link": "subpages/m48.html"
+    "title": "EM38 - Proof Planes",
+    "image": "images/em38proofplane.jpg",
+    "description": "Used for transferring charge.",
+    "link": "subpages/em38.html"
   },
     {
-    "title": "M49- Loaded Block on Inclined Plane",
-    "image": "images/m49loadedblockonplane.jpg",
-    "description": "Shows in principle how the coefficients of static and kinetic friction can be determined.",
-    "link": "subpages/m49.html"
+    "title": "EM39 - Gold Leaf Electroscopes",
+    "image": "images/em39electroscope.jpg",
+    "description": "Used to measure potential difference.",
+    "link": "subpages/em39.html"
   },
   {
-    "title": "M50- Block on Inclined Plane",
-    "image": "images/m50blockonplane.jpg",
-    "description": "Demonstrates friction.",
-    "link": "subpages/m50.html"
+    "title": "EM40 - Whimshurst Machines",
+    "image": "images/em40whimhurst.jpg",
+    "description": "Used to generate static electricity.",
+    "link": "subpages/em40.html"
   },
   {
-    "title": "M60- Varying tension in string",
-    "image": "images/m60varytension.jpg",
-    "description": "Demonstrates varying tension due to centripetal acceleration.",
-    "link": "subpages/m60.html"
+    "title": "EM51 - Resistance",
+    "image": "images/em51resistance.jpg",
+    "description": "Shows the difference between resistance in series and resistance in parallel.",
+    "link": "subpages/em51.html"
   },
   {
-    "title": "M61 - Pulley Systems",
-    "image": "images/m61pulleys.jpg",
-    "description": "Demonstrates various pulleys.",
-    "link": "subpages/m61.html"
+    "title": "EM55 - Back EMF Of Motor",
+    "image": "images/em55backemf.jpg",
+    "description": "Demonstrates back EMF.",
+    "link": "subpages/em55.html"
   },
   {
-    "title": "M62- Resolution of forces",
-    "image": "images/m62fresolution.jpg",
-    "description": "Shows the forces exerted on a block resting on an inclined plane.",
-    "link": "subpages/m62.html"
+    "title": "EM57 - Time-Dependent Currents",
+    "image": "images/em57tdcurrents.jpg",
+    "description": "Shows that a capacitor “passes” alternating current but not direct current.",
+    "link": "subpages/em57.html"
+  },
+{
+    "title": "EM60 - Time Constant",
+    "image": "images/em60tconst.jpg",
+    "description": "Demonstrates the time constant of a capacitor.",
+    "link": "subpages/em60.html"
+  },
+{
+    "title": "EM61 - Variable Capacitor",
+    "image": "images/em61varcap.jpg",
+    "description": "Enables varying capacitance for demonstrations.",
+    "link": "subpages/em61.html"
+  },
+{
+    "title": "EM62 - Giant Capacitor",
+    "image": "images/em62giantcap.jpg",
+    "description": " A large capacitor.",
+    "link": "subpages/em62.html"
+  },
+{
+    "title": "M63 - 1 Farad Capacitor",
+    "image": "images/em631faradcap.jpg",
+    "description": "A capacitor with high capacitance.",
+    "link": "subpages/em63.html"
+  },
+{
+    "title": "EM64 - Capacitor In A Glass",
+    "image": "images/em64capinglass.jpg",
+    "description": "Unusual capacitor.",
+    "link": "subpages/em64.html"
+  },
+{
+    "title": "EM65 - Canned Capacitors",
+    "image": "images/em65cannedcaps.jpg",
+    "description": "A series of capacitors.",
+    "link": "subpages/em65.html"
+  },
+{
+    "title": "EM66 - Box Of Capacitors",
+    "image": "images/em66boxofcaps.jpg",
+    "description": "Shows a variety of capacitors.",
+    "link": "subpages/em66.html"
+  },
+{
+    "title": "EM93 - Alternating Currents",
+    "image": "images/em93accurrents.jpg",
+    "description": "Demonstrates parallel resonance.",
+    "link": "subpages/EM93.html"
+  },
+{
+    "title": "EM94 - Tesla Coil",
+    "image": "images/em94teslacoil.jpg",
+    "description": "Produces extremely high voltage build-up.",
+    "link": "subpages/em94.html"
+  },
+  {
+    "title": "EM96 - LR Circuit",
+    "image": "images/em96lrcirc.jpg",
+    "description": "Demonstrates the current variation in an LR circuit.",
+    "link": "subpages/em96.html"
+  },                         
+ {
+    "title": "EM97 - Self-Inductance",
+    "image": "images/em97selfinduct.jpg",
+    "description": "Shows self-inductance using an LRC circuit.",
+    "link": "subpages/em97.html"
+  },                         
+ {
+    "title": "EM98 - Electrical Beats",
+    "image": "images/em98ebeats.jpg",
+    "description": "Demonstrates electrical beats.",
+    "link": "subpages/em98.html"
+  },                         
+ {
+    "title": "EM100- Resonance",
+    "image": "images/em100resonance.jpg",
+    "description": "Demonstrates electrical resonance.",
+    "link": "subpages/em100.html"
+  },
+  {
+    "title": "EM121- Step-Up Transformer",
+    "image": "images/em121stepuptrans.jpg",
+    "description": "Impressive high-voltage demonstration.",
+    "link": "subpages/em121.html"
+  },                          
+ {
+    "title": "EM125 - Parallel Currents",
+    "image": "images/em125parcur.jpg",
+    "description": "Shows the attraction and repulstion of parallel currents.",
+    "link": "subpages/em125.html"
+  },                         
+ {
+    "title": "EM126 - Step-Down Transformer",
+    "image": "images/em126stepdowntrans.jpg",
+    "description": "Demonstration of low voltage, high current conditions.",
+    "link": "subpages/em126.html"
+  },                         
+ {
+    "title": "EM127 - Bulbs Light Via Inductance",
+    "image": "images/m127bulbinduct.jpg",
+    "description": "An entertaining demonstration of inductance.",
+    "link": "subpages/em127.html"
+  },                         
+ {
+    "title": "EM128 - Induction in a Coil",
+    "image": "images/em128coilinduct.jpg",
+    "description": "Shows electromagnetic induction in a coil of wire.",
+    "link": "subpages/em128.html"
+  },                         
+ {
+    "title": "EM129 - Self-Inductor",
+    "image": "images/em129selfinduct.jpg",
+    "description": "Shows self-inductance.",
+    "link": "subpages/em129.html"
+  },                         
+ {
+    "title": "EM130 - Magnetic Braking",
+    "image": "images/em130magbrake.jpg",
+    "description": "Shows the effect of eddy currents.",
+    "link": "subpages/em130.html"
+  },                         
+ {
+    "title": "EM131 - Induction: Coil-to-Coil",
+    "image": "images/em131coiltocoil.jpg",
+    "description": "Shows induction from one coil to another.",
+    "link": "subpages/em131.html"
+  },                         
+ {
+    "title": "EM132 - Induction: Spinning Magnet",
+    "image": "images/em132spinmag.jpg",
+    "description": "Shows induction from a changing magnetic field.",
+    "link": "subpages/em132.html"
+  },                         
+ {
+    "title": "EM133 - Earth Inductors",
+    "image": "images/em133earthinduc.jpg",
+    "description": "Shows induction using the Earth's magnetic field.",
+    "link": "subpages/em133.html"
+  },                         
+ {
+    "title": "EM141 - Galvanometer",
+    "image": "images/em141galvano.jpg",
+    "description": "Shows the mechanism of a galvanometer.",
+    "link": "subpages/em141.html"
+  },                         
+ {
+    "title": "EM142 - Magnetic Field in Loop",
+    "image": "images/em142magfloop.jpg",
+    "description": "Shows the direction of the magnetic field in a current-carrying loop.",
+    "link": "subpages/em142.html"
+  },                         
+ {
+    "title": "M108 - Angular Momentum",
+    "image": "images/m108angmom.jpg",
+    "description": "Demonstrates various rotational principles.",
+    "link": "subpages/m108.html"
+  },                         
+ {
+    "title": "EM143 - Lodestone",
+    "image": "images/em143lodestone.jpg",
+    "description": "Shows a naturally occurring magnetic material.",
+    "link": "subpages/em143.html"
+  },                         
+ {
+    "title": "EM144 - North and South Poles",
+    "image": "images/em144northsouth.jpg",
+    "description": "Shows the dipole nature of magnets..",
+    "link": "subpages/em145.html"
+  },                         
+ {
+    "title": "EM145 - Mahomet's Coffin",
+    "image": "images/em145mahomet.jpg",
+    "description": "Shows repulsion of like poles of a magnet.",
+    "link": "subpages/em145.html"
+  },                         
+ {
+    "title": "EM146 - Mahomet's Coffin - Rings",
+    "image": "images/em146mahometrings.jpg",
+    "description": "Shows repulsion of like poles of a magnet.",
+    "link": "subpages/em146.html"
+  },                         
+ {
+    "title": "EM147 - Magnetic Field - Bar",
+    "image": "images/em147magbar.jpg",
+    "description": "Shows the magnetic field of a bar magnet.",
+    "link": "subpages/em147.html"
+  },                         
+ {
+    "title": "EM148 - Induced Magnetisation",
+    "image": "images/em148maginduc.jpg",
+    "description": "Demonstrates induced magnetisation.",
+    "link": "subpages/em148.html"
+  },                         
+ {
+    "title": "EM149 - Magnetic Field - Current",
+    "image": "images/em149magcur.jpg",
+    "description": "Shows the magnetic field due to a current-carrying wire.",
+    "link": "subpages/em149.html"
+  },                         
+ {
+    "title": "EM150 - Sticks",
+    "image": "images/em150sticks.jpg",
+    "description": "Demonstrates the magnetic force.",
+    "link": "subpages/em150.html"
+  },                         
+ {
+    "title": "EM151 - Oersted's Experiment",
+    "image": "images/em151oersted.jpg",
+    "description": "Shows the direction of the magnetic field around a current-carrying wire.",
+    "link": "subpages/em151.html"
+  },                         
+ {
+    "title": "EM152 - Force on Moving Charge",
+    "image": "images/em152forceoncharge.jpg",
+    "description": "Shows the force on a moving charge in a magnetic field.",
+    "link": "subpages/em152.html"
+  },                         
+ {
+    "title": "EM153 - Faraday Cage",
+    "image": "images/em153farcage.jpg",
+    "description": "Shows wavelength-dependent transmission of electromagnetic waves.",
+    "link": "subpages/em153.html"
+  },                         
+ {
+    "title": "EM155 - Hysteresis",
+    "image": "images/em155hysteresis.jpg",
+    "description": "Demonstrates hysteresis.",
+    "link": "subpages/em155.html"
+  },                         
+ {
+    "title": "EM156 - Curie Temperature",
+    "image": "images/em156curietemp.jpg",
+    "description": "Demonstrates the Curie point.",
+    "link": "subpages/em156.html"
+  },                         
+ {
+    "title": "EM157 - Magnetic Field - Disc",
+    "image": "images/em157mfielddisk.jpg",
+    "description": "Shows the magnetic field surrounding a disc.",
+    "link": "subpages/em157.html"
+  },
+  {
+    "title": "EM170 - Cathode Ray Tubes",
+    "image": "images/em170cathray.jpg",
+    "description": "Produce electron beams.",
+    "link": "subpages/em170.html"
+  },
+  {
+    "title": "EM171 - Thermionics: Diodes - Rectification",
+    "image": "images/em171diodrect.jpg",
+    "description": "Demonstrates converstion from AC to DC current.",
+    "link": "subpages/em171.html"
+  },
+  {
+    "title": "EM172 - Discharge Tubes",
+    "image": "images/em172dischargetubes.jpg",
+    "description": "Demonstrate phenomena related to electric discharge in gases",
+    "link": "subpages/EM172.html"
+  },
+  {
+    "title": "EM173 - Positive Rays",
+    "image": "images/em173posrays.jpg",
+    "description": "Tube with slotted cathode",
+    "link": "subpages/em173.html"
   }
 ]
