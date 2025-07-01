@@ -25,7 +25,7 @@
   },
 
   {
-    "title": "l5 - Case of Lenses",
+    "title": "L5 - Case of Lenses",
     "description": "Useful for light demonstrations.",
     "image": "images/l5lenscase.jpg",
     "link": "subpages/l5.html"
@@ -137,12 +137,6 @@
     "image": "images/l45newtonsrings.jpg",
     "description": "Shows the interference from reflection of light between two surfaces.",
     "link": "subpages/l45.html"
-  },
-  {
-    "title": "EM40 - Whimshurst Machines",
-    "image": "images/em40whimhurst.jpg",
-    "description": "Used to generate static electricity.",
-    "link": "subpages/em40.html"
   },
   {
     "title": "L47 - Longitudinal Waves",
@@ -269,161 +263,5 @@
     "image": "images/l80colourslats.jpg",
     "description": "Demonstrating light and colour.",
     "link": "subpages/l80.html"
-  },                         
- {
-    "title": "EM129 - Self-Inductor",
-    "image": "images/em129selfinduct.jpg",
-    "description": "Shows self-inductance.",
-    "link": "subpages/em129.html"
-  },                         
- {
-    "title": "EM130 - Magnetic Braking",
-    "image": "images/em130magbrake.jpg",
-    "description": "Shows the effect of eddy currents.",
-    "link": "subpages/em130.html"
-  },                         
- {
-    "title": "EM131 - Induction: Coil-to-Coil",
-    "image": "images/em131coiltocoil.jpg",
-    "description": "Shows induction from one coil to another.",
-    "link": "subpages/em131.html"
-  },                         
- {
-    "title": "EM132 - Induction: Spinning Magnet",
-    "image": "images/em132spinmag.jpg",
-    "description": "Shows induction from a changing magnetic field.",
-    "link": "subpages/em132.html"
-  },                         
- {
-    "title": "EM133 - Earth Inductors",
-    "image": "images/em133earthinduc.jpg",
-    "description": "Shows induction using the Earth's magnetic field.",
-    "link": "subpages/em133.html"
-  },                         
- {
-    "title": "EM141 - Galvanometer",
-    "image": "images/em141galvano.jpg",
-    "description": "Shows the mechanism of a galvanometer.",
-    "link": "subpages/em141.html"
-  },                         
- {
-    "title": "EM142 - Magnetic Field in Loop",
-    "image": "images/em142magfloop.jpg",
-    "description": "Shows the direction of the magnetic field in a current-carrying loop.",
-    "link": "subpages/em142.html"
-  },                         
- {
-    "title": "M108 - Angular Momentum",
-    "image": "images/m108angmom.jpg",
-    "description": "Demonstrates various rotational principles.",
-    "link": "subpages/m108.html"
-  },                         
- {
-    "title": "EM143 - Lodestone",
-    "image": "images/em143lodestone.jpg",
-    "description": "Shows a naturally occurring magnetic material.",
-    "link": "subpages/em143.html"
-  },                         
- {
-    "title": "EM144 - North and South Poles",
-    "image": "images/em144northsouth.jpg",
-    "description": "Shows the dipole nature of magnets..",
-    "link": "subpages/em145.html"
-  },                         
- {
-    "title": "EM145 - Mahomet's Coffin",
-    "image": "images/em145mahomet.jpg",
-    "description": "Shows repulsion of like poles of a magnet.",
-    "link": "subpages/em145.html"
-  },                         
- {
-    "title": "EM146 - Mahomet's Coffin - Rings",
-    "image": "images/em146mahometrings.jpg",
-    "description": "Shows repulsion of like poles of a magnet.",
-    "link": "subpages/em146.html"
-  },                         
- {
-    "title": "EM147 - Magnetic Field - Bar",
-    "image": "images/em147magbar.jpg",
-    "description": "Shows the magnetic field of a bar magnet.",
-    "link": "subpages/em147.html"
-  },                         
- {
-    "title": "EM148 - Induced Magnetisation",
-    "image": "images/em148maginduc.jpg",
-    "description": "Demonstrates induced magnetisation.",
-    "link": "subpages/em148.html"
-  },                         
- {
-    "title": "EM149 - Magnetic Field - Current",
-    "image": "images/em149magcur.jpg",
-    "description": "Shows the magnetic field due to a current-carrying wire.",
-    "link": "subpages/em149.html"
-  },                         
- {
-    "title": "EM150 - Sticks",
-    "image": "images/em150sticks.jpg",
-    "description": "Demonstrates the magnetic force.",
-    "link": "subpages/em150.html"
-  },                         
- {
-    "title": "EM151 - Oersted's Experiment",
-    "image": "images/em151oersted.jpg",
-    "description": "Shows the direction of the magnetic field around a current-carrying wire.",
-    "link": "subpages/em151.html"
-  },                         
- {
-    "title": "EM152 - Force on Moving Charge",
-    "image": "images/em152forceoncharge.jpg",
-    "description": "Shows the force on a moving charge in a magnetic field.",
-    "link": "subpages/em152.html"
-  },                         
- {
-    "title": "EM153 - Faraday Cage",
-    "image": "images/em153farcage.jpg",
-    "description": "Shows wavelength-dependent transmission of electromagnetic waves.",
-    "link": "subpages/em153.html"
-  },                         
- {
-    "title": "EM155 - Hysteresis",
-    "image": "images/em155hysteresis.jpg",
-    "description": "Demonstrates hysteresis.",
-    "link": "subpages/em155.html"
-  },                         
- {
-    "title": "EM156 - Curie Temperature",
-    "image": "images/em156curietemp.jpg",
-    "description": "Demonstrates the Curie point.",
-    "link": "subpages/em156.html"
-  },                         
- {
-    "title": "EM157 - Magnetic Field - Disc",
-    "image": "images/em157mfielddisk.jpg",
-    "description": "Shows the magnetic field surrounding a disc.",
-    "link": "subpages/em157.html"
-  },
-  {
-    "title": "EM170 - Cathode Ray Tubes",
-    "image": "images/em170cathray.jpg",
-    "description": "Produce electron beams.",
-    "link": "subpages/em170.html"
-  },
-  {
-    "title": "EM171 - Thermionics: Diodes - Rectification",
-    "image": "images/em171diodrect.jpg",
-    "description": "Demonstrates converstion from AC to DC current.",
-    "link": "subpages/em171.html"
-  },
-  {
-    "title": "EM172 - Discharge Tubes",
-    "image": "images/em172dischargetubes.jpg",
-    "description": "Demonstrate phenomena related to electric discharge in gases",
-    "link": "subpages/EM172.html"
-  },
-  {
-    "title": "EM173 - Positive Rays",
-    "image": "images/em173posrays.jpg",
-    "description": "Tube with slotted cathode",
-    "link": "subpages/em173.html"
   }
-]
+]                                             
