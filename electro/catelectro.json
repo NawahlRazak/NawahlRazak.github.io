@@ -3,8 +3,7 @@
     "title": "EM1 - Galvanometer",
     "image": "images/em1galvano.jpg",
     "description": "detects or measures small currents and voltages by using a moving coil.",
-    "link": "subpages/em1.html",
-    "infotext": "Attachments are available to change the sensitivity of the galvanometer. The box containing the attachments lies next to it on the shelf."  
+    "link": "subpages/em1.html"
 },
   {
     "title": "EM2 - Audio Oscillator",
@@ -20,7 +19,7 @@
   },
    {
     "title": "EM21 - Charging by Induction",
-    
+    "image": "images/em21chargebyinduc.jpg",
     "description": "Shows charging by induction.",
     "link": "subpages/em21.html"
   },
@@ -110,12 +109,6 @@
     "link": "subpages/em35.html"
   },
   {
-    "title": "M44 - Tangential motion",
-    "image": "images/m44tangent.jpg",
-    "description": "Demonstrates Newton's First Law.",
-    "link": "subpages/m44.html"
-  },  
-  {
     "title": "EM36 - Triboelectricity",
     "image": "images/em36triboelec.jpg",
     "description": "Basic experiments on electrification by contact and friction.",
@@ -182,7 +175,7 @@
     "link": "subpages/em62.html"
   },
 {
-    "title": "M63 - 1 Farad Capacitor",
+    "title": "EM63 - 1 Farad Capacitor",
     "image": "images/em631faradcap.jpg",
     "description": "A capacitor with high capacitance.",
     "link": "subpages/em63.html"
@@ -209,7 +202,7 @@
     "title": "EM93 - Alternating Currents",
     "image": "images/em93accurrents.jpg",
     "description": "Demonstrates parallel resonance.",
-    "link": "subpages/EM93.html"
+    "link": "subpages/em93.html"
   },
 {
     "title": "EM94 - Tesla Coil",
@@ -312,13 +305,7 @@
     "image": "images/em142magfloop.jpg",
     "description": "Shows the direction of the magnetic field in a current-carrying loop.",
     "link": "subpages/em142.html"
-  },                         
- {
-    "title": "M108 - Angular Momentum",
-    "image": "images/m108angmom.jpg",
-    "description": "Demonstrates various rotational principles.",
-    "link": "subpages/m108.html"
-  },                         
+  },                                                 
  {
     "title": "EM143 - Lodestone",
     "image": "images/em143lodestone.jpg",

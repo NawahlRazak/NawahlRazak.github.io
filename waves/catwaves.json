@@ -1,143 +1,142 @@
 [
   {
-    "title": "EM1 - Galvanometer",
-    "image": "images/em1galvano.jpg",
-    "description": "detects or measures small currents and voltages by using a moving coil.",
-    "link": "subpages/em1.html",
-    "infotext": "Attachments are available to change the sensitivity of the galvanometer. The box containing the attachments lies next to it on the shelf."  
+    "title": "L1 - Linear Lens Arrays",
+    "image": "images/l1lensarrays.jpg",
+    "description": "Used for focussing of light.",
+    "link": "subpages/l1.html"
 },
   {
-    "title": "EM2 - Audio Oscillator",
-    "image": "images/em2audioosc.jpg",
-    "description": "Different circuits and components are used to create different waveform shapes (sine, square, triangle, etc.).  ",
-    "link": "subpages/em2.html"
+    "title": "L2 - Lens Aberrations",
+    "image": "images/l2aberr.jpg",
+    "description": "Demonstrates spherical and chromatic aberration.  ",
+    "link": "subpages/l2.html"
   },
   {
-    "title": "EM3 - Variac",
-    "image": "images/em3variac.jpg",
-    "description": "Power supply used to provide a variable AC voltage output, allowing for precise adjustments of voltage levels in various applications.",
-    "link": "subpages/em3.html"
+    "title": "L3 - Lenses and Mirrors",
+    "image": "images/l3lensandmirr.jpg",
+    "description": "Useful for various light demonstrations.",
+    "link": "subpages/l3.html"
   },
    {
-    "title": "EM21 - Charging by Induction",
-    
-    "description": "Shows charging by induction.",
-    "link": "subpages/em21.html"
+    "title": "L4 - Panels",
+    "image": "images/l4panels.jpg",
+    "description": "Useful for light demonstrations.",
+    "link": "subpages/l4.html"
   },
 
   {
-    "title": "EM22 - Faraday's Ice Pail",
-    "description": "Shows distribution of charge.",
-    "image": "images/em22faradice.jpg",
-    "link": "subpages/em22.html"
+    "title": "l5 - Case of Lenses",
+    "description": "Useful for light demonstrations.",
+    "image": "images/l5lenscase.jpg",
+    "link": "subpages/l5.html"
   },
   {
-    "title": "EM23 - Charge On Concentric Shells",
-    "image": "images/em23cshellcharge.jpg",
-    "description": "Shows the distribution of charge on concentric shells.",
-    "link": "subpages/em23.html"
+    "title": "L8 - TBD",
+    "image": "images/l8.jpg",
+    "description": "tbd.",
+    "link": "subpages/l8.html"
   },
   {
-    "title": "EM24 - Center of Gravity",
-    "image": "images/em24irregshapecharge.jpg",
-    "description": "Shows the distribution of charge on irregularly shaped objects..",
-    "link": "subpages/em24.html"
+    "title": "L12 - Mechanical Refraction",
+    "image": "images/l12mechrefrac.jpg",
+    "description": "Demonstrates a mechanical analogy to refraction.",
+    "link": "subpages/l12.html"
   },
   {
-    "title": "EM25 - Charging By Induction",
-    "image": "images/em25chbyinduc.jpg",
-    "description": "Shows charging by induction.",
-    "link": "subpages/em25.html"
+    "title": "L13 - Refraction Tank",
+    "image": "images/l13refractank.jpg",
+    "description": "Demonstrates refraction.",
+    "link": "subpages/l13.html"
   },
   {
-    "title": "EM26 - Van de Graaf Generators",
-    "image": "images/em26vdgraaf.jpg",
-    "description": "Generates static electricity.",
-    "link": "subpages/em26.html"
+    "title": "L14 - Double Refraction",
+    "image": "images/l14doublerefrac.jpg",
+    "description": "Demonstrates refraction in a medium which is not isotropic.",
+    "link": "subpages/l14.html"
   },  
   {
-    "title": "EM27 - Box Of Electrostatic Demos",
-    "image": "images/em27electrostat.jpg",
-    "description": "Demonstrates concepts in electrostatics.",
-    "link": "subpages/em27.html"
+    "title": "L15 - Multiple Reflections",
+    "image": "images/l15multirefrac.jpg",
+    "description": "Demonstrates multiple reflections.",
+    "link": "subpages/l15.html"
   },  
   {
-    "title": "EM28 - Capacitance",
-    "image": "images/em28cap.jpg",
-    "description": "Demonstrates the concept of capacitance.",
-    "link": "subpages/em28.html"
+    "title": "L17 - Semi-Circle Mirrors",
+    "image": "images/l17semicircmirr.jpg",
+    "description": "Shows images formed by curved mirror.",
+    "link": "subpages/l17.html"
   },  
   {
-    "title": "EM29 -Capacitor With Dielectric",
-    "image": "images/em29capwithdi.jpg",
-    "description": "Shows the effect of a dielectric on capacitance.",
-    "link": "subpages/em29.html"
+    "title": "L19 - Lightbox Optical Set",
+    "image": "images/l19opticset.jpg",
+    "description": "An optical set for light demonstrations.",
+    "link": "subpages/l19.html"
   },
   {
-    "title": "EM30 - Capacitor With Ball",
-    "image": "images/em30capwithball.jpg",
-    "description": "Simple electrostatics demonstration.",
-    "link": "subpages/em30.html"
+    "title": "L22 - Total Reflection",
+    "image": "images/l22totreflec.jpg",
+    "description": "Demonstrates total internal reflection.",
+    "link": "subpages/l22.html"
   },
   {
-    "title": "EM31 - Spark Gaps",
+    "title": "L30 - Adjustable Prism",
     "image": "images/em31sparkgaps.jpg",
-    "description": "Amusing electrostatics demonstration.",
-    "link": "subpages/em31.html"
+    "description": "Used to manipulate the path of light, allowing for precise adjustments in optical systems.",
+    "link": "subpages/l30.html"
   },
   {
-    "title": "EM32 - Variable Capacitors",
-    "image": "images/em32varcap.jpg",
-    "description": "Shows the effect of plate distance on capacitance.",
-    "link": "subpages/em32.html"
+    "title": "L32 - Direct Vision Prism",
+    "image": "images/l32dvprism.jpg",
+    "description": "Shows dispersion of light without mean deviation.",
+    "link": "subpages/l32.html"
   },
   {
-    "title": "EM33 - Kelvin Current Balance",
-    "image": "images/em33kelcurbal.jpg",
-    "description": "a device, also known as an ampere balance or current balance, used to precisely measure electric current",
-    "link": "subpages/em33.html"
+    "title": "L33 - Optical Bench Kit",
+    "image": "images/l33opticbench.jpg",
+    "description": "for various demonstrations with lenses, mirrors and objects.",
+    "link": "subpages/l33.html"
   },
   {
-    "title": "EM34- The Electrostatic Field",
-    "image": "images/em34esfield.jpg",
-    "description": "Shows the direction of the electrostatic field.",
-    "link": "subpages/em34.html"
+    "title": "L35- Prism on Stand",
+    "image": "images/l35prism.jpg",
+    "description": "Demonstrates refraction and potentially dispersion of light.",
+    "link": "subpages/l35.html"
   },  
   {
-    "title": "EM35 - The Electrophorous",
-    "image": "images/em35electropho.jpg",
-    "description": "Illustrates the basic principle of many electrostatic machines.",
-    "link": "subpages/em35.html"
+    "title": "L36 - Prism Tower",
+    "image": "images/l36prismtower.jpg",
+    "description": "Shows variation in refractivity.",
+    "link": "subpages/l36.html"
   },
   {
-    "title": "M44 - Tangential motion",
-    "image": "images/m44tangent.jpg",
-    "description": "Demonstrates Newton's First Law.",
-    "link": "subpages/m44.html"
+    "title": "L41 - Vibrating String",
+    "image": "images/l41vibstring.jpg",
+    "description": "Shows standing waves.",
+    "link": "subpages/l41.html"
   },  
   {
-    "title": "EM36 - Triboelectricity",
-    "image": "images/em36triboelec.jpg",
-    "description": "Basic experiments on electrification by contact and friction.",
-    "link": "subpages/em36.html"
+    "title": "L42 - Resonator/Whirly Tube",
+    "image": "images/l42whirly.jpg",
+    "description": "When swung at different speeds produces discreet notes/modes of vibration.",
+    "link": "subpages/l42.html"
   },    
    {
-    "title": "EM37 - Swinging Pith Ball",
-    "image": "images/em37swingpithball.jpg",
-    "description": "Simple electrostatics demonstration.",
-    "link": "subpages/em37.html"
+    "title": "L43 - Chladni Plate",
+    "image": "images/l43chladni.jpg",
+    "description": "Demonstrates the vibrational modes of a plate.",
+    "link": "subpages/l43.html"
   },
   {
-    "title": "EM38 - Proof Planes",
-    "image": "images/em38proofplane.jpg",
-    "description": "Used for transferring charge.",
-    "link": "subpages/em38.html"
+    "title": "L44 - Point Source Interference",
+    "image": "images/l44interference.jpg",
+    "description": "Shows the constructive and destructive interference of two point sources.",
+    "link": "subpages/l44.html"
   },
-    {
-    "title": "EM39 - Gold Leaf Electroscopes",
-    "image": "images/em39electroscope.jpg",
-    "description": "Used to measure potential difference.",
-    "link": "subpages/em39.html"
+  {
+    "title": "L45 - Newton's Rings",
+    "image": "images/l45newtonsrings.jpg",
+    "description": "Shows the interference from reflection of light between two surfaces.",
+    "link": "subpages/l45.html"
   },
   {
     "title": "EM40 - Whimshurst Machines",
@@ -146,130 +145,130 @@
     "link": "subpages/em40.html"
   },
   {
-    "title": "EM51 - Resistance",
-    "image": "images/em51resistance.jpg",
-    "description": "Shows the difference between resistance in series and resistance in parallel.",
-    "link": "subpages/em51.html"
+    "title": "L47 - Longitudinal Waves",
+    "image": "images/l47longwaves.jpg",
+    "description": "Demonstrates longtudinal waves.",
+    "link": "subpages/l47.html"
   },
   {
-    "title": "EM55 - Back EMF Of Motor",
-    "image": "images/em55backemf.jpg",
-    "description": "Demonstrates back EMF.",
-    "link": "subpages/em55.html"
+    "title": "L49 - Torsional Waves",
+    "image": "images/l49torsionwaves.jpg",
+    "description": "Demonstrates torsional waves.",
+    "link": "subpages/l49.html"
   },
   {
-    "title": "EM57 - Time-Dependent Currents",
-    "image": "images/em57tdcurrents.jpg",
-    "description": "Shows that a capacitor “passes” alternating current but not direct current.",
-    "link": "subpages/em57.html"
+    "title": "L50 - Array of Glass Plates",
+    "image": "images/l50platearray.jpg",
+    "description": "A loose array of glass plates. use tbd",
+    "link": "subpages/l50.html"
   },
 {
-    "title": "EM60 - Time Constant",
-    "image": "images/em60tconst.jpg",
-    "description": "Demonstrates the time constant of a capacitor.",
-    "link": "subpages/em60.html"
+    "title": "L51 - Polarisation",
+    "image": "images/l51polarisation.jpg",
+    "description": "Demonstrates polarisation by using Brewster's angle.",
+    "link": "subpages/l51.html"
   },
 {
-    "title": "EM61 - Variable Capacitor",
-    "image": "images/em61varcap.jpg",
-    "description": "Enables varying capacitance for demonstrations.",
-    "link": "subpages/em61.html"
+    "title": "L53 - Interfering Waves",
+    "image": "images/l53interference.jpg",
+    "description": "Demonstrates interference.",
+    "link": "subpages/L53.html"
   },
 {
-    "title": "EM62 - Giant Capacitor",
-    "image": "images/em62giantcap.jpg",
-    "description": " A large capacitor.",
-    "link": "subpages/em62.html"
+    "title": "L55 - Crova’s Disc",
+    "image": "images/l53crovasdisc.jpg",
+    "description": " Shows compressional and standing waves.",
+    "link": "subpages/l55.html"
   },
 {
-    "title": "M63 - 1 Farad Capacitor",
-    "image": "images/em631faradcap.jpg",
-    "description": "A capacitor with high capacitance.",
-    "link": "subpages/em63.html"
+    "title": "L56 - Lamp on Rod",
+    "image": "images/l56.jpg",
+    "description": "tbd.",
+    "link": "subpages/l56.html"
   },
 {
-    "title": "EM64 - Capacitor In A Glass",
-    "image": "images/em64capinglass.jpg",
-    "description": "Unusual capacitor.",
-    "link": "subpages/em64.html"
+    "title": "L57 - Ultraviolet Lamp",
+    "image": "images/l57uvlamp.jpg",
+    "description": "To demonstrate various properties of UV light.",
+    "link": "subpages/l57.html"
   },
 {
-    "title": "EM65 - Canned Capacitors",
-    "image": "images/em65cannedcaps.jpg",
-    "description": "A series of capacitors.",
-    "link": "subpages/em65.html"
+    "title": "L58 - Small UV Lamp",
+    "image": "images/l58uvlampsmall.jpg",
+    "description": "To demonstrate various properties of UV light.",
+    "link": "subpages/l58.html"
   },
 {
-    "title": "EM66 - Box Of Capacitors",
-    "image": "images/em66boxofcaps.jpg",
-    "description": "Shows a variety of capacitors.",
-    "link": "subpages/em66.html"
+    "title": "L59 - Light Boxes",
+    "image": "images/l59lightboxes.jpg",
+    "description": "Used for light demonstrations.",
+    "link": "subpages/l59.html"
   },
 {
-    "title": "EM93 - Alternating Currents",
-    "image": "images/em93accurrents.jpg",
-    "description": "Demonstrates parallel resonance.",
-    "link": "subpages/EM93.html"
+    "title": "L61 - Directed Lamp",
+    "image": "images/l61dirlampjpg",
+    "description": "For light demonstrations.",
+    "link": "subpages/l61.html"
   },
 {
-    "title": "EM94 - Tesla Coil",
-    "image": "images/em94teslacoil.jpg",
-    "description": "Produces extremely high voltage build-up.",
-    "link": "subpages/em94.html"
+    "title": "L62 - Helium-Neon Laser",
+    "image": "images/l62henelaser.jpg",
+    "description": "Produces monochromatic light.",
+    "link": "subpages/l62.html"
   },
   {
-    "title": "EM96 - LR Circuit",
-    "image": "images/em96lrcirc.jpg",
-    "description": "Demonstrates the current variation in an LR circuit.",
-    "link": "subpages/em96.html"
+    "title": "L66 - Photoelasticimetry",
+    "image": "images/l66photoelast.jpg",
+    "description": "Demonstrates various photoelastimetric effects.",
+    "link": "subpages/l66.html"
   },                         
  {
-    "title": "EM97 - Self-Inductance",
-    "image": "images/em97selfinduct.jpg",
-    "description": "Shows self-inductance using an LRC circuit.",
-    "link": "subpages/em97.html"
+    "title": "L67 - Light Polarisation",
+    "image": "images/l67lightpol.jpg",
+    "description": "A large model of a Nicol prism: A device for producing plane-polarized light.",
+    "link": "subpages/L67.html"
   },                         
  {
-    "title": "EM98 - Electrical Beats",
-    "image": "images/em98ebeats.jpg",
-    "description": "Demonstrates electrical beats.",
-    "link": "subpages/em98.html"
+    "title": "L69 - Rectilinear Propagation",
+    "image": "images/l69rectpol.jpg",
+    "description": "Demonstrates the rectilinear propagation of light.",
+    "link": "subpages/l69.html"
   },                         
  {
-    "title": "EM100- Resonance",
-    "image": "images/em100resonance.jpg",
-    "description": "Demonstrates electrical resonance.",
-    "link": "subpages/em100.html"
+    "title": "L71 - TBD",
+    "image": "images/l71.jpg",
+    "description": "tbd.",
+    "link": "subpages/l71.html"
   },
   {
-    "title": "EM121- Step-Up Transformer",
-    "image": "images/em121stepuptrans.jpg",
-    "description": "Impressive high-voltage demonstration.",
-    "link": "subpages/em121.html"
+    "title": "L76 - Absorption and Reflection",
+    "image": "images/l76absref.jpg",
+    "description": "Shows the difference between absorption and reflection colours.",
+    "link": "subpages/l76.html"
   },                          
  {
-    "title": "EM125 - Parallel Currents",
-    "image": "images/em125parcur.jpg",
-    "description": "Shows the attraction and repulstion of parallel currents.",
-    "link": "subpages/em125.html"
+    "title": "L77 - Colour Rendering",
+    "image": "images/l77colourrend.jpg",
+    "description": "Shows the rendering of colour on various coloured surfaces.",
+    "link": "subpages/l77.html"
   },                         
  {
-    "title": "EM126 - Step-Down Transformer",
-    "image": "images/em126stepdowntrans.jpg",
-    "description": "Demonstration of low voltage, high current conditions.",
-    "link": "subpages/em126.html"
+    "title": "L78 - Colour Mixture",
+    "image": "images/l78colourmix.jpg",
+    "description": "Shows colour mixture using filters.",
+    "link": "subpages/l78.html"
   },                         
  {
-    "title": "EM127 - Bulbs Light Via Inductance",
-    "image": "images/m127bulbinduct.jpg",
-    "description": "An entertaining demonstration of inductance.",
-    "link": "subpages/em127.html"
+    "title": "L79 - Colour Wheel",
+    "image": "images/l79colourwheel.jpg",
+    "description": "Shows that white light is made up of many colours.",
+    "link": "subpages/l79.html"
   },                         
  {
-    "title": "EM128 - Induction in a Coil",
-    "image": "images/em128coilinduct.jpg",
-    "description": "Shows electromagnetic induction in a coil of wire.",
-    "link": "subpages/em128.html"
+    "title": "L80 - Coloured Slats",
+    "image": "images/l80colourslats.jpg",
+    "description": "Demonstrating light and colour.",
+    "link": "subpages/l80.html"
   },                         
  {
     "title": "EM129 - Self-Inductor",
