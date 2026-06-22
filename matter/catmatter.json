@@ -371,5 +371,11 @@
     "image": "images/s12tforks.jpg",
     "description": "Demonstrates different wavelengths/frequencies of sound",
     "link": "subpages/em150s12.html"
-  }                         
+  },
+  {
+    "title": "SW1 - Whirly Tube",
+    "image": "/waves/images/sw1whirlytube.jpg",
+    "description": "Demonstrating sounds of different pitches. Bernoulli's principle in action",
+    "link": "/waves/subpages/sw1.html"
+  }                        
 ]

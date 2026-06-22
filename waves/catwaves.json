@@ -263,5 +263,11 @@
     "image": "images/l80colourslats.jpg",
     "description": "Demonstrating light and colour.",
     "link": "subpages/l80.html"
+  },
+  {
+    "title": "SW1 - Whirly Tube",
+    "image": "images/sw1whirlytube.jpg",
+    "description": "Demonstrating sounds of different pitches. Bernoulli's principle in action",
+    "link": "/waves/subpages/sw1.html"
   }
 ]                                             
