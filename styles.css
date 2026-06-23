@@ -30,16 +30,24 @@ li p {
    
     background-color: rgb(0, 36, 58);
     }
-    
+
 a {
     color:azure;
-     font-size: 30px;
+    font-size: 30px;
     margin: 20 px;
     text-decoration: none;
     background-color: rgb(0, 36, 58);
 }
+.par-link {
+        font-size: 16px;
+        font-weight: bolder;
+        color: black;
+        background-color: azure;
+        
+    }   
 a:hover {
     text-decoration: underline;
+    font-weight: bolder;
 }
 
 h3 a {
@@ -81,6 +89,7 @@ footer a {
         font-size: 20px;
         
     }
+
 .demonline {
     width: 50%;
 }
