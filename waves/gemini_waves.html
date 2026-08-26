@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/catstyle.css" />
+    <title>Waves & Light Demonstrations by Subcategory</title>
+    <style>
+      .subcategory-title {
+        border-bottom: 2px solid #333;
+        padding-bottom: 5px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        color: #2c3e50;
+      }
+      .catalogue-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+        margin-bottom: 40px;
+      }
+      .catalogue-item {
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        padding: 15px;
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align: center">Waves & Light Demonstrations</h1>
+      <img class="demonline" src="/assets/demonline.gif" alt="Demonstration line divider" />
+    </header>
+
+    <main id="main-content">
+      <!-- Subcategory sections will be dynamically generated here -->
+    </main>
+
+    <script>
+      // Explicit mapping of each subcategory to its specific list of demo titles from catwaves.json
+      const subcategories = [
+        {
+          name: "Lenses & Geometrical Optics Kits",
+          items: [
+            "L1 - Linear Lens Arrays",
+            "L2 - Lens Aberrations",
+            "L3 - Lenses and Mirrors",
+            "L4 - Panels",
+            "L5 - Case of Lenses",
+            "L19 - Lightbox Optical Set",
+            "L33 - Optical Bench Kit",
+            "L50 - Array of Glass Plates"
+          ]
+        },
+        {
+          name: "Reflection & Refraction Phenomena",
+          items: [
+            "L12 - Mechanical Refraction",
+            "L13 - Refraction Tank",
+            "L14 - Double Refraction",
+            "L15 - Multiple Reflections",
+            "L17 - Semi-Circle Mirrors",
+            "L22 - Total Reflection",
+            "L69 - Rectilinear Propagation"
+          ]
+        },
+        {
+          name: "Prisms & Dispersion",
+          items: [
+            "L30 - Adjustable Prism",
+            "L32 - Direct Vision Prism",
+            "L35- Prism on Stand",
+            "L36 - Prism Tower"
+          ]
+        },
+        {
+          name: "Wave Motion & Mechanical Waves",
+          items: [
+            "L41 - Vibrating String",
+            "L42 - Resonator/Whirly Tube",
+            "L43 - Chladni Plate",
+            "L47 - Longitudinal Waves",
+            "L49 - Torsional Waves",
+            "L55 - Crova’s Disc"
+          ]
+        },
+        {
+          name: "Wave Interference & Optics",
+          items: [
+            "L44 - Point Source Interference",
+            "L45 - Newton's Rings",
+            "L53 - Interfering Waves"
+          ]
+        },
+        {
+          name: "Polarization & Photoelasticity",
+          items: [
+            "L51 - Polarisation",
+            "L66 - Photoelasticimetry",
+            "L67 - Light Polarisation"
+          ]
+        },
+        {
+          name: "Light Sources, Lasers & Optical Accessories",
+          items: [
+            "L56 - Lamp on Rod",
+            "L57 - Ultraviolet Lamp",
+            "L58 - Small UV Lamp",
+            "L59 - Light Boxes",
+            "L61 - Directed Lamp",
+            "L62 - Helium-Neon Laser"
+          ]
+        },
+        {
+          name: "Color & Vision Demonstrations",
+          items: [
+            "L76 - Absorption and Reflection",
+            "L77 - Colour Rendering",
+            "L78 - Colour Mixture",
+            "L79 - Colour Wheel",
+            "L80 - Coloured Slats"
+          ]
+        },
+        {
+          name: "Uncategorized Demos (TBD)",
+          items: [
+            "L8 - TBD",
+            "L71 - TBD"
+          ]
+        }
+      ];
+
+      fetch("catwaves.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const mainContainer = document.getElementById("main-content");
+
+          // Create a lookup map from the JSON data indexed by exact title
+          const demoMap = {};
+          data.forEach((item) => {
+            demoMap[item.title] = item;
+          });
+
+          // Render each subcategory explicitly
+          subcategories.forEach((cat) => {
+            const matchingItems = cat.items
+              .map((title) => demoMap[title])
+              .filter((item) => item !== undefined);
+
+            if (matchingItems.length > 0) {
+              // Subcategory Header
+              const catHeader = document.createElement("h2");
+              catHeader.className = "subcategory-title";
+              catHeader.textContent = cat.name;
+              mainContainer.appendChild(catHeader);
+
+              // Container Grid
+              const grid = document.createElement("div");
+              grid.className = "catalogue-container";
+
+              // Demo Cards
+              matchingItems.forEach((item) => {
+                const html = `
+                  <div class="catalogue-item">
+                    <h3><a href="${item.link}" target="_blank">${item.title}</a></h3>
+                    <img src="${item.image}" alt="${item.title}" style="max-width:100%;">
+                    <p>${item.description}</p>
+                  </div>
+                `;
+                grid.innerHTML += html;
+              });
+
+              mainContainer.appendChild(grid);
+            }
+          });
+        })
+        .catch((error) => {
+          console.error("Error loading catalogue:", error);
+          document.getElementById("main-content").innerText =
+            "Failed to load catalogue.";
+        });
+    </script>
+
+    <footer>
+      <p><a href="/index.html">Return to All demos</a></p>
+      <p>
+        <a href="https://science.uct.ac.za/department-physics"
+          >Go to UCT Physics Website</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

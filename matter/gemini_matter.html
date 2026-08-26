@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/catstyle.css" />
+    <title>Matter & Thermodynamics Demonstrations by Subcategory</title>
+    <style>
+      .subcategory-title {
+        border-bottom: 2px solid #333;
+        padding-bottom: 5px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        color: #2c3e50;
+      }
+      .catalogue-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+        margin-bottom: 40px;
+      }
+      .catalogue-item {
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        padding: 15px;
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align: center">Matter & Thermodynamics Demonstrations</h1>
+      <img class="demonline" src="/assets/demonline.gif" alt="Demonstration line divider" />
+    </header>
+
+    <main id="main-content">
+      <!-- Subcategory sections will be dynamically generated here -->
+    </main>
+
+    <script>
+      // Explicit mapping of each subcategory to its specific list of demo titles from catmatter.json
+      const subcategories = [
+        {
+          name: "Thermal Expansion & Contraction",
+          items: [
+            "H1 - Thermal Expansion",
+            "H2 - Contraction on Cooling",
+            "H6 - Thermal Expansion of Liquids",
+            "H7 - Thermal Expansion",
+            "H8 - Thermal Expansion"
+          ]
+        },
+        {
+          name: "Thermodynamics, Phase Changes & Evaporation",
+          items: [
+            "H12 - Regelation of Ice",
+            "H15 - Cooling by Evaporation",
+            "H17 - Vapour pressure",
+            "H18 - tbd",
+            "H20 - Cloud Chamber",
+            "H21 - Dippy Dillies",
+            "H24 - Critical Point of C02",
+            "H25 - Hygrometers",
+            "H48 - Berthelot Apparatus",
+            "H49 - Bunsen Ice Calorimeter",
+            "H50 - Heat Engines"
+          ]
+        },
+        {
+          name: "Heat Transfer, Radiation & Temperature",
+          items: [
+            "H31 - Thermal Conductivity",
+            "H32 - Thermal Conductivity",
+            "H33 - Convection",
+            "H36- Radiation",
+            "H37 - Heat Absorption",
+            "H38 - Radiation",
+            "H39 - Radiation",
+            "H42 - Radiometer",
+            "H45 - Thermocouple",
+            "H46 - Radiation: Diathermancy",
+            "H47 - Indicators of Temperature"
+          ]
+        },
+        {
+          name: "Material Properties & General Lab Equipment",
+          items: [
+            "H51 - Strain: Bologne Phials",
+            "H52 - Portable De-ioniser"
+          ]
+        },
+        {
+          name: "Hydrostatics & Buoyancy",
+          items: [
+            "HY1 - Upthrust on Floating Body",
+            "HY2 - Liquid Levels",
+            "HY5 - Fluid Pressure",
+            "HY6 - Hydrostatic Paradox: Pascal's Vases",
+            "HY7 - Archimedes' principle",
+            "HY8 - Upthrust",
+            "HY10 - Buoys",
+            "HY11 - Cartesian Diver",
+            "HD6 - Buoyancy - Shape"
+          ]
+        },
+        {
+          name: "Hydrodynamics & Aerodynamics (Fluid Dynamics & Air Pressure)",
+          items: [
+            "HY12 - Vortex Action",
+            "HD4 - Relaxation Oscillations",
+            "HD5- Relaxation Oscillations",
+            "HD11 - Torricelli's Law of Efflux",
+            "AP1 - Magdeberg Hemispheres",
+            "AP3 - Pressure gauges",
+            "AP4 - Air Weighing",
+            "AP7 - Air The Bernoulli Effect",
+            "AP10 - Manometer",
+            "AP11 - Bell Jars",
+            "AP12 - Hand Pump",
+            "AP13 - Glass Syringes",
+            "AD1 - Bellows and Blower",
+            "AD2 - Venturi",
+            "AD6 - Pumps"
+          ]
+        },
+        {
+          name: "Sound & Acoustics",
+          items: [
+            "S1 - Propagation Needs a Medium",
+            "S2 - Organ Pipes",
+            "S3 - 'Gauze Tones'- Beats",
+            "S5 - Doppler effect",
+            "S7 - Galton's Whistle and Sensitive Flame",
+            "S8 - Periodic Pulses",
+            "S9 - Siren",
+            "S10 - Resonance",
+            "S12 - Tuning Forks",
+            "L42 - Whirly Tube"
+          ]
+        }
+      ];
+
+      fetch("catmatter.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const mainContainer = document.getElementById("main-content");
+
+          // Create a lookup map from the JSON data indexed by title
+          const demoMap = {};
+          data.forEach((item) => {
+            demoMap[item.title] = item;
+          });
+
+          // Render each subcategory explicitly
+          subcategories.forEach((cat) => {
+            const matchingItems = cat.items
+              .map((title) => demoMap[title])
+              .filter((item) => item !== undefined);
+
+            if (matchingItems.length > 0) {
+              // Subcategory Header
+              const catHeader = document.createElement("h2");
+              catHeader.className = "subcategory-title";
+              catHeader.textContent = cat.name;
+              mainContainer.appendChild(catHeader);
+
+              // Container Grid
+              const grid = document.createElement("div");
+              grid.className = "catalogue-container";
+
+              // Demo Cards
+              matchingItems.forEach((item) => {
+                const html = `
+                  <div class="catalogue-item">
+                    <h3><a href="${item.link}" target="_blank">${item.title}</a></h3>
+                    <img src="${item.image}" alt="${item.title}" style="max-width:100%;">
+                    <p>${item.description}</p>
+                  </div>
+                `;
+                grid.innerHTML += html;
+              });
+
+              mainContainer.appendChild(grid);
+            }
+          });
+        })
+        .catch((error) => {
+          console.error("Error loading catalogue:", error);
+          document.getElementById("main-content").innerText =
+            "Failed to load catalogue.";
+        });
+    </script>
+
+    <footer>
+      <p><a href="/index.html">Return to All demos</a></p>
+      <p>
+        <a href="https://science.uct.ac.za/department-physics"
+          >Go to UCT Physics Website</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

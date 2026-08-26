@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/catstyle.css" />
+    <title>Electromagnetics Demonstrations by Subcategory</title>
+    <style>
+      .subcategory-title {
+        border-bottom: 2px solid #333;
+        padding-bottom: 5px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        color: #2c3e50;
+      }
+      .catalogue-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+        margin-bottom: 40px;
+      }
+      .catalogue-item {
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        padding: 15px;
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align: center">Electromagnetics Demonstrations</h1>
+      <img class="demonline" src="/assets/demonline.gif" alt="Demonstration line divider" />
+    </header>
+
+    <main id="main-content">
+      <!-- Subcategory sections will be dynamically generated here -->
+    </main>
+
+    <script>
+      // Explicit mapping of each subcategory to its specific list of demo titles
+      const subcategories = [
+        {
+          name: "Instruments & General Equipment",
+          items: [
+            "EM1 - Galvanometer",
+            "EM2 - Audio Oscillator",
+            "EM3 - Variac"
+          ]
+        },
+        {
+          name: "Electrostatics & Charge Distribution",
+          items: [
+            "EM21 - Charging by Induction",
+            "EM22 - Faraday's Ice Pail",
+            "EM23 - Charge On Concentric Shells",
+            "EM24 - Center of Gravity",
+            "EM25 - Charging By Induction",
+            "EM26 - Van de Graaf Generators",
+            "EM27 - Box Of Electrostatic Demos",
+            "EM30 - Capacitor With Ball",
+            "EM31 - Spark Gaps",
+            "EM34- The Electrostatic Field",
+            "EM35 - The Electrophorous",
+            "EM36 - Triboelectricity",
+            "EM37 - Swinging Pith Ball",
+            "EM38 - Proof Planes",
+            "EM39 - Gold Leaf Electroscopes",
+            "EM40 - Whimshurst Machines",
+            "EM153 - Faraday Cage"
+          ]
+        },
+        {
+          name: "Capacitance & Dielectrics",
+          items: [
+            "EM28 - Capacitance",
+            "EM29 -Capacitor With Dielectric",
+            "EM32 - Variable Capacitors",
+            "EM60 - Time Constant",
+            "EM61 - Variable Capacitor",
+            "EM62 - Giant Capacitor",
+            "EM63 - 1 Farad Capacitor",
+            "EM64 - Capacitor In A Glass",
+            "EM65 - Canned Capacitors",
+            "EM66 - Box Of Capacitors"
+          ]
+        },
+        {
+          name: "Circuits & Current Phenomena",
+          items: [
+            "EM33 - Kelvin Current Balance",
+            "EM51 - Resistance",
+            "EM55 - Back EMF Of Motor",
+            "EM57 - Time-Dependent Currents",
+            "EM93 - Alternating Currents",
+            "EM94 - Tesla Coil",
+            "EM96 - LR Circuit",
+            "EM97 - Self-Inductance",
+            "EM98 - Electrical Beats",
+            "EM100- Resonance"
+          ]
+        },
+        {
+          name: "Transformers & Induction",
+          items: [
+            "EM121- Step-Up Transformer",
+            "EM125 - Parallel Currents",
+            "EM126 - Step-Down Transformer",
+            "EM127 - Bulbs Light Via Inductance",
+            "EM128 - Induction in a Coil",
+            "EM129 - Self-Inductor",
+            "EM130 - Magnetic Braking",
+            "EM131 - Induction: Coil-to-Coil",
+            "EM132 - Induction: Spinning Magnet",
+            "EM133 - Earth Inductors"
+          ]
+        },
+        {
+          name: "Magnetism & Magnetic Fields",
+          items: [
+            "EM141 - Galvanometer",
+            "EM142 - Magnetic Field in Loop",
+            "EM143 - Lodestone",
+            "EM144 - North and South Poles",
+            "EM145 - Mahomet's Coffin",
+            "EM146 - Mahomet's Coffin - Rings",
+            "EM147 - Magnetic Field - Bar",
+            "EM148 - Induced Magnetisation",
+            "EM149 - Magnetic Field - Current",
+            "EM150 - Sticks",
+            "EM151 - Oersted's Experiment",
+            "EM152 - Force on Moving Charge",
+            "EM155 - Hysteresis",
+            "EM156 - Curie Temperature",
+            "EM157 - Magnetic Field - Disc"
+          ]
+        },
+        {
+          name: "Cathode Rays & Electron Discharge",
+          items: [
+            "EM170 - Cathode Ray Tubes",
+            "EM171 - Thermionics: Diodes - Rectification",
+            "EM172 - Discharge Tubes",
+            "EM173 - Positive Rays"
+          ]
+        }
+      ];
+
+      fetch("catelectro.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const mainContainer = document.getElementById("main-content");
+
+          // Create a lookup map from the JSON data indexed by title
+          const demoMap = {};
+          data.forEach((item) => {
+            demoMap[item.title] = item;
+          });
+
+          // Render each subcategory explicitly
+          subcategories.forEach((cat) => {
+            // Find matched demos for this category
+            const matchingItems = cat.items
+              .map((title) => demoMap[title])
+              .filter((item) => item !== undefined);
+
+            if (matchingItems.length > 0) {
+              // Create Subcategory Heading
+              const catHeader = document.createElement("h2");
+              catHeader.className = "subcategory-title";
+              catHeader.textContent = cat.name;
+              mainContainer.appendChild(catHeader);
+
+              // Create Container Grid
+              const grid = document.createElement("div");
+              grid.className = "catalogue-container";
+
+              // Append Demo Cards
+              matchingItems.forEach((item) => {
+                const html = `
+                  <div class="catalogue-item">
+                    <h3><a href="${item.link}" target="_blank">${item.title}</a></h3>
+                    <img src="${item.image}" alt="${item.title}" style="max-width:100%;">
+                    <p>${item.description}</p>
+                  </div>
+                `;
+                grid.innerHTML += html;
+              });
+
+              mainContainer.appendChild(grid);
+            }
+          });
+        })
+        .catch((error) => {
+          console.error("Error loading catalogue:", error);
+          document.getElementById("main-content").innerText =
+            "Failed to load catalogue.";
+        });
+    </script>
+
+    <footer>
+      <p><a href="/index.html">Return to All demos</a></p>
+      <p>
+        <a href="https://science.uct.ac.za/department-physics"
+          >Go to UCT Physics Website</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

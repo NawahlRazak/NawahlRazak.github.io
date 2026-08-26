@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/catstyle.css" />
+    <title>Mechanics Demonstrations by Subcategory</title>
+    <style>
+      .subcategory-title {
+        border-bottom: 2px solid #333;
+        padding-bottom: 5px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        color: #2c3e50;
+      }
+      .catalogue-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+        margin-bottom: 40px;
+      }
+      .catalogue-item {
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        padding: 15px;
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align: center">Mechanics Demonstrations</h1>
+      <img class="demonline" src="/assets/demonline.gif" alt="Demonstration line divider" />
+    </header>
+
+    <main id="main-content">
+      <!-- Subcategory sections will be dynamically generated here -->
+    </main>
+
+    <script>
+      // Explicit mapping of each subcategory to its specific list of demo titles from catmech.json
+      const subcategories = [
+        {
+          name: "Kinematics, Gravity & Inertial Frames",
+          items: [
+            "M11 - Guinea & Feather",
+            "M12 - The Gun that never misses",
+            "M13 - Pop and Drop",
+            "M14 - Rolling Cart Catches Ball",
+            "M20 - Inertial Reference Frame",
+            "M21 - Ball Falling into cup",
+            "M22 - Slinky and Stairs",
+            "M30 - Inertia",
+            "M44 - Tangential motion",
+            "M93 - Balls on Tracks"
+          ]
+        },
+        {
+          name: "Center of Mass, Equilibrium & Vectors",
+          items: [
+            "M15 - Center of Mass",
+            "M16 - Principle of Moments",
+            "M17 - Center of Gravity",
+            "M18 - Plunger",
+            "M19 - Double Cone",
+            "M40 - Parallelogram of forces",
+            "M41 - Resultant of Vectors in 3D",
+            "M42 - Components of forces",
+            "M47 - Stability of a ladder",
+            "M62 - Resolution of forces",
+            "M101 - Crowbar"
+          ]
+        },
+        {
+          name: "Friction & Simple Machines",
+          items: [
+            "M48 - Roller on Inclined Plane",
+            "M49 - Loaded Block on Inclined Plane",
+            "M50 - Block on Inclined Plane",
+            "M61 - Pulley Systems",
+            "M66 - Differential Pulley",
+            "M67 - Screwjack",
+            "M68 - Equal Masses on Double Pulley",
+            "M69 - Adjustable Pulley"
+          ]
+        },
+        {
+          name: "Collisions & Momentum Conservation",
+          items: [
+            "M80 - Trolleys",
+            "M81 - Newton's Cradle",
+            "M82 - Mini Newton's Cradle",
+            "M83 - Balls on Rails",
+            "M84 - Inelastic collisions",
+            "M85 - Conservation of Momentum",
+            "M86 - Elastic & Inelastic collisions",
+            "M87 - Superballs",
+            "M88- Conservation of Momentum",
+            "M89- Air Track",
+            "M90 - Rocket and Block",
+            "M91 - Air Table",
+            "M92 - Water Rocket",
+            "M103 - Conservation of Momentum: Jet Propulsion"
+          ]
+        },
+        {
+          name: "Rotational Dynamics, Angular Momentum & Gyroscopes",
+          items: [
+            "M23 - Falling Chimney",
+            "M43 - Aeroplane on a String",
+            "M46 - Sphere's on Inclined Plane",
+            "M60 - Varying tension in string",
+            "M100 - Attwood's Machine",
+            "M102 - Rotational Motion",
+            "M104 - Centrifugal Force",
+            "M105 - Rotating Candles",
+            "M106 - Large Gyroscope",
+            "M108 - Angular Momentum",
+            "M109 - Small Gyroscopes",
+            "M110 - Rotational Motion",
+            "M114 - Celts"
+          ]
+        },
+        {
+          name: "Elasticity & Material Stress",
+          items: [
+            "M120 - Hooke's Law",
+            "M121 - Elastic Limit",
+            "M122 - Modulus of Rigidity"
+          ]
+        },
+        {
+          name: "Simple Harmonic Motion & Pendulums",
+          items: [
+            "M130 - Harmonic motion",
+            "M131 - Cantilever Oscillations",
+            "M132 - Ball on a spring (SHM)",
+            "M133 - Oscillating ball on slope (SHM)",
+            "M140 - Simple Pendulums",
+            "M141 - Period of Oscillation",
+            "M142 - Whirligig Pendulum",
+            "M143 - Galilieo's Pendulum",
+            "M144 - Ballistic Pendulum",
+            "M145 - Probabalistic Pendulum",
+            "M146 - Ring Pendulum",
+            "M147 - Different Lengths Pendulum",
+            "M148 - Oscillating Lamina",
+            "M149 - Double Pendulum",
+            "M150 - Two Rod Pendulums",
+            "M151 - Giant Pendulum"
+          ]
+        },
+        {
+          name: "Coupled Oscillators & Resonance",
+          items: [
+            "M160 - Wilberforce Pendulum",
+            "M161 - Adjustable Wilberforce Pendulum",
+            "M162 - Simple Coupled Oscillator",
+            "M163 - Oscillator Coupled by Mass",
+            "M164 - Oscillator Coupled by Rod",
+            "M165 - Oscillator Coupled by Bar",
+            "M166 - Pair of Wilberforce Pendulums",
+            "M170 - Resonance",
+            "M171 - Resonance Oscillations",
+            "M172 - Driven Oscillations"
+          ]
+        },
+        {
+          name: "Measurement Tools & Teaching Models",
+          items: [
+            "M180 - Chemical balance",
+            "M181 - Large Vernier Callipers",
+            "M182 - Large Slide Rule",
+            "M183 - Model of a Vernier Scale",
+            "M184 - Model Micrometer Screwgauge",
+            "M185 - Spherometer",
+            "M186 - Vector Arrows"
+          ]
+        }
+      ];
+
+      fetch("catmech.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const mainContainer = document.getElementById("main-content");
+
+          // Create a lookup map from the JSON data indexed by exact title
+          const demoMap = {};
+          data.forEach((item) => {
+            demoMap[item.title] = item;
+          });
+
+          // Render each subcategory explicitly
+          subcategories.forEach((cat) => {
+            const matchingItems = cat.items
+              .map((title) => demoMap[title])
+              .filter((item) => item !== undefined);
+
+            if (matchingItems.length > 0) {
+              // Subcategory Header
+              const catHeader = document.createElement("h2");
+              catHeader.className = "subcategory-title";
+              catHeader.textContent = cat.name;
+              mainContainer.appendChild(catHeader);
+
+              // Container Grid
+              const grid = document.createElement("div");
+              grid.className = "catalogue-container";
+
+              // Demo Cards
+              matchingItems.forEach((item) => {
+                const html = `
+                  <div class="catalogue-item">
+                    <h3><a href="${item.link}" target="_blank">${item.title}</a></h3>
+                    <img src="${item.image}" alt="${item.title}" style="max-width:100%;">
+                    <p>${item.description}</p>
+                  </div>
+                `;
+                grid.innerHTML += html;
+              });
+
+              mainContainer.appendChild(grid);
+            }
+          });
+        })
+        .catch((error) => {
+          console.error("Error loading catalogue:", error);
+          document.getElementById("main-content").innerText =
+            "Failed to load catalogue.";
+        });
+    </script>
+
+    <footer>
+      <p><a href="/index.html">Return to All demos</a></p>
+      <p>
+        <a href="https://science.uct.ac.za/department-physics"
+          >Go to UCT Physics Website</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

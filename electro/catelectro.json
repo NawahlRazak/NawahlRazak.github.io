@@ -293,7 +293,13 @@
     "image": "images/em133earthinduc.jpg",
     "description": "Shows induction using the Earth's magnetic field.",
     "link": "subpages/em133.html"
-  },                         
+  },     
+  {
+    "title": "EM134 - Mutual Induction Coils",
+    "image": "images/em134mutinduc.jpg",
+    "description": "Demonstrates mutual induction between two coils",
+    "link": "subpages/em134.html"
+  },                   
  {
     "title": "EM141 - Galvanometer",
     "image": "images/em141galvano.jpg",
