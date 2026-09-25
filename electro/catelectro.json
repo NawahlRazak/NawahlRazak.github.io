@@ -144,6 +144,12 @@
     "description": "Shows the difference between resistance in series and resistance in parallel.",
     "link": "subpages/em51.html"
   },
+    {
+    "title": "EM52 - Resistance in lightbulbs",
+    "image": "images/em52resistance.jpg",
+    "description": "Shows that lightbulbs with higher resistance glow brighter.",
+    "link": "subpages/em52.html"
+  },
   {
     "title": "EM55 - Back EMF Of Motor",
     "image": "images/em55backemf.jpg",
@@ -198,6 +204,12 @@
     "description": "Shows a variety of capacitors.",
     "link": "subpages/em66.html"
   },
+  {
+    "title": "EM67 - Charging a Capacitor",
+    "image": "images/em67capcharger.jpg",
+    "description": "A circuit for charging a capacitor.",
+    "link": "subpages/em67.html"
+  },
 {
     "title": "EM93 - Alternating Currents",
     "image": "images/em93accurrents.jpg",
@@ -217,7 +229,7 @@
     "link": "subpages/em96.html"
   },                         
  {
-    "title": "EM97 - Self-Inductance",
+    "title": "EM97 - LRC Resonance",
     "image": "images/em97selfinduct.jpg",
     "description": "Shows self-inductance using an LRC circuit.",
     "link": "subpages/em97.html"
@@ -235,7 +247,7 @@
     "link": "subpages/em100.html"
   },
   {
-    "title": "EM121 - Step-Up Transformer",
+    "title": "EM121 - Jacob's Ladder",
     "image": "images/em121stepuptrans.jpg",
     "description": "Impressive high-voltage demonstration.",
     "link": "subpages/em121.html"
@@ -271,11 +283,11 @@
     "link": "subpages/em128.html"
   },                         
  {
-    "title": "EM129 - Self-Inductor",
-    "image": "images/em129selfinduct.jpg",
-    "description": "Shows self-inductance.",
+   "title": "EM129 - Magnet down a tube",
+    "image": "images/em129magdowntube.jpg",
+    "description": "Self-Induction. Neodymium magnet falls through a copper tube in slow motion due to induction.",
     "link": "subpages/em129.html"
-  },                         
+  },                        
  {
     "title": "EM130 - Magnetic Braking",
     "image": "images/em130magbrake.jpg",
@@ -311,7 +323,7 @@
     "image": "images/em135induc.jpg",
     "description": "For demonstrating various electromagnetic induction phenomena",
     "link": "subpages/em135.html"
-  },                  
+  },                 
  {
     "title": "EM141 - Galvanometer",
     "image": "images/em141galvano.jpg",

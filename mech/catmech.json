@@ -274,10 +274,16 @@
   }, 
    {
     "title": "M94 - Balls on Tracks",
-    "image": "images/m94ballsontracks2.jpg",
-    "description": "An interesting and somewhat counter-intuitive experiment.",
+    "image": "images/m94ballsontrack.jpg",
+    "description": "The shortest distance is not always the quickest",
     "link": "subpages/m94.html"
-  },                         
+  },   
+  {
+    "title": "M95 - Loop the Loop",
+    "image": "images/m95loop.jpg",
+    "description": "Gravity provides centripetal force.",
+    "link": "subpages/m95.html"
+  },                       
  {
     "title": "M100 - Attwood's Machine",
     "image": "images/m100attwoods.jpg",
@@ -319,6 +325,12 @@
     "image": "images/m106gyrolarge.jpg",
     "description": "Demonstrates various rotational principles.",
     "link": "subpages/m106.html"
+  },
+  {
+    "title": "M107 - Bicycle Gyroscope",
+    "image": "images/m107wheelgyro.jpg",
+    "description": "Demonstrates principles of a gyroscope using a wheel",
+    "link": "subpages/m107.html"
   },                         
  {
     "title": "M108 - Angular Momentum",
