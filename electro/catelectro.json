@@ -229,16 +229,22 @@
     "link": "subpages/em98.html"
   },                         
  {
-    "title": "EM100- Resonance",
+    "title": "EM100 - Resonance",
     "image": "images/em100resonance.jpg",
     "description": "Demonstrates electrical resonance.",
     "link": "subpages/em100.html"
   },
   {
-    "title": "EM121- Step-Up Transformer",
+    "title": "EM121 - Step-Up Transformer",
     "image": "images/em121stepuptrans.jpg",
     "description": "Impressive high-voltage demonstration.",
     "link": "subpages/em121.html"
+  },
+  {
+    "title": "EM122 - Dissectible Transformer kit",
+    "image": "images/em122transformer.jpg",
+    "description": "Impressive high-voltage demonstration.",
+    "link": "subpages/em122.html"
   },                          
  {
     "title": "EM125 - Parallel Currents",

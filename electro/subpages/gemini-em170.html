@@ -5,83 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles.css" />
     <title>EM170 - Cathode Ray Tubes</title>
-    <style>
-      .demo-carousel-container {
-        position: relative;
-        max-width: 600px;
-        margin: 0 auto;
-      }
-
-      .demo-carousel {
-        display: flex;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        scroll-behavior: smooth;
-        gap: 1rem;
-        padding-bottom: 1rem;
-        -webkit-overflow-scrolling: touch;
-      }
-
-      /* Hide scrollbar for a cleaner look */
-      .demo-carousel::-webkit-scrollbar {
-        display: none;
-      }
-      .demo-carousel {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-      }
-
-      .demo-card {
-        flex: 0 0 100%;
-        scroll-snap-align: start;
-        box-sizing: border-box;
-      }
-
-      .demo-card img.description {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        border-radius: 4px;
-      }
-
-      .carousel-nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 0.5rem;
-      }
-
-      .carousel-btn {
-        background: #004080;
-        color: white;
-        border: none;
-        padding: 0.5rem 1rem;
-        border-radius: 4px;
-        cursor: pointer;
-        font-weight: bold;
-      }
-
-      .carousel-btn:hover {
-        background: #002b55;
-      }
-
-      .demo-indicators {
-        display: flex;
-        gap: 0.5rem;
-      }
-
-      .dot {
-        width: 10px;
-        height: 10px;
-        background-color: #ccc;
-        border-radius: 50%;
-        display: inline-block;
-      }
-
-      .dot.active {
-        background-color: #004080;
-      }
-    </style>
   </head>
   <body>
     <header>
@@ -95,7 +18,7 @@
         <div class="demo-carousel" id="demoCarousel">
           
           <!-- Demo Option 1 -->
-          <article class="demo-card" id="demo-a">
+          <article class="demo-card">
             <h3>Option A: Maltese Cross</h3>
             <img class="description" src="/electro/images/em170cathray.jpg" alt="Maltese cross cathode ray tube" />
             <p class="description">
@@ -103,8 +26,8 @@
             </p>
           </article>
 
-          <!-- Demo Option 2 -->
-          <article class="demo-card" id="demo-b">
+          <!-- Demo Option 2 (Simply remove or comment this out when you only have 1 demo) -->
+          <article class="demo-card">
             <h3>Option B: Paddle Wheel</h3>
             <img class="description" src="/electro/images/em170paddle.jpg" alt="Paddle wheel cathode ray tube" />
             <p class="description">
@@ -115,12 +38,9 @@
         </div>
 
         <!-- Navigation Controls -->
-        <div class="carousel-nav">
+        <div class="carousel-nav" id="carouselNav">
           <button class="carousel-btn" onclick="scrollDemo(-1)">← Previous</button>
-          <div class="demo-indicators">
-            <span class="dot active"></span>
-            <span class="dot"></span>
-          </div>
+          <div class="demo-indicators" id="demoIndicators"></div>
           <button class="carousel-btn" onclick="scrollDemo(1)">Next →</button>
         </div>
       </div>
@@ -136,17 +56,29 @@
 
     <script>
       const carousel = document.getElementById('demoCarousel');
-      const dots = document.querySelectorAll('.dot');
+      const cards = carousel.querySelectorAll('.demo-card');
+      const dotsContainer = document.getElementById('demoIndicators');
+
+      // Dynamically generate indicator dots based on card count
+      if (cards.length > 1) {
+        cards.forEach((_, i) => {
+          const dot = document.createElement('span');
+          dot.className = `dot ${i === 0 ? 'active' : ''}`;
+          dotsContainer.appendChild(dot);
+        });
+      }
 
       function scrollDemo(direction) {
-        const cardWidth = carousel.querySelector('.demo-card').clientWidth + 16;
+        const cardWidth = cards[0].clientWidth + 16;
         carousel.scrollBy({ left: direction * cardWidth, behavior: 'smooth' });
       }
 
       // Update active dot on scroll
       carousel.addEventListener('scroll', () => {
-        const cardWidth = carousel.querySelector('.demo-card').clientWidth;
+        if (cards.length <= 1) return;
+        const cardWidth = cards[0].clientWidth;
         const activeIndex = Math.round(carousel.scrollLeft / cardWidth);
+        const dots = dotsContainer.querySelectorAll('.dot');
         
         dots.forEach((dot, index) => {
           dot.classList.toggle('active', index === activeIndex);
