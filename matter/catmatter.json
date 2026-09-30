@@ -12,6 +12,12 @@
     "link": "subpages/h2.html"
   },
   {
+    "title": "H3 - Varying Thermal Expansion",
+    "image": "images/h3thermx.jpg",
+    "description": "Shows difference in thermal expansion between materials.",
+    "link": "subpages/h2.html"
+  },
+  {
     "title": "H6 - Thermal Expansion of Liquids",
     "image": "images/h3expandliq.jpg",
     "description": "Model Dulong and Petit apparatus.",
@@ -134,7 +140,7 @@
   },
     {
     "title": "H46 - Radiation: Diathermancy",
-    "image": "images/h46diathermancy.jpg",
+    "image": "images/h46diathermacy.jpg",
     "description": "To show that a solution of Iodine in carbon disulphide, opaque to visible light, is transparent to infrared.",
     "link": "subpages/h46.html"
   },
@@ -269,7 +275,13 @@
     "image": "images/ap4airweight.jpg",
     "description": "Weighing air.",
     "link": "subpages/ap4.html"
-  },  
+  }, 
+   {
+    "title": "AP6 - Bernoulli Blower",
+    "image": "images/ap6bernoulli.jpg",
+    "description": "Demonstration that uses a fast-moving stream of air to suspend an object.",
+    "link": "subpages/ap6.html"
+  }, 
    {
     "title": "AP7 - Air The Bernoulli Effect",
     "image": "images/ap7bernoulli.jpg",

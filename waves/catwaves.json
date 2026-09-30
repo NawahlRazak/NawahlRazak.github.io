@@ -108,6 +108,12 @@
     "description": "Shows variation in refractivity.",
     "link": "subpages/l36.html"
   },
+   {
+    "title": "L40 - Ripple Tank",
+    "image": "images/l40ripple.jpg",
+    "description": "Glass-bottomed tray of water used in physics to study the behavior and properties of two-dimensional water waves.",
+    "link": "subpages/l40.html"
+  }, 
   {
     "title": "L41 - Vibrating String",
     "image": "images/l41vibstring.jpg",

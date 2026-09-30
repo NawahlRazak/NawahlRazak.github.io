@@ -117,6 +117,12 @@
     "link": "subpages/m44.html"
   },  
   {
+    "title": "M45 - Moment of Inertia Race",
+    "image": "images/m45rolling.jpg",
+    "description": "Objects with mass closer to the center have a smaller moment of inertia.",
+    "link": "subpages/m45.html"
+  },
+  {
     "title": "M46 - Sphere's on Inclined Plane",
     "image": "images/m46sphereonplane.jpg",
     "description": "demonstrates the principles of conservation of energy, rotational motion, and the relationship between linear and rotational kinetic energy.",
@@ -130,7 +136,7 @@
   },
   {
     "title": "M48 - Roller on Inclined Plane",
-    "image": "images/m48rolleronplane.jpg",
+    "image": "images/m48rolling.jpg",
     "description": "demonstrates that rolling friction is smaller than sliding friction.",
     "link": "subpages/m48.html"
   },
@@ -187,6 +193,12 @@
     "image": "images/m69adjustpulley.jpg",
     "description": "A pulley with adjustable height.",
     "link": "subpages/m69.html"
+  },
+  {
+    "title": "M79 - PASCO Dynamics Track",
+    "image": "images/m79pascotrack.jpg",
+    "description": "PASCO dynamics track and trolleys.",
+    "link": "subpages/m79.html"
   },
 {
     "title": "M80 - Trolleys",
@@ -511,6 +523,12 @@
     "image": "images/m166wilberpair.jpg",
     "description": "Demonstration of coupled oscillators.",
     "link": "subpages/m166.html"
+  },
+  {
+    "title": "M167 - Oscillators Coupled by string",
+    "image": "images/m167coupled.jpg",
+    "description": "Demonstration of coupled oscillators.",
+    "link": "subpages/m167.html"
   },
   {
     "title": "M170 - Resonance",

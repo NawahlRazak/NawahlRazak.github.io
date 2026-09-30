@@ -18,6 +18,12 @@
     "link": "subpages/em3.html"
   },
    {
+    "title": "EM4 - Plasma Globe",
+    "image": "images/em4plasma.jpg",
+    "description": "Demonstrates fundamental principles of high-voltage electricity, ionization, and thermodynamics.",
+    "link": "subpages/em4.html"
+  },
+   {
     "title": "EM21 - Charging by Induction",
     "image": "images/em21chargebyinduc.jpg",
     "description": "Shows charging by induction.",
@@ -257,6 +263,12 @@
     "image": "images/em122transformer.jpg",
     "description": "Impressive high-voltage demonstration.",
     "link": "subpages/em122.html"
+  },
+    {
+    "title": "EM124 - Electron Beam in Uniform Magnetic Field",
+    "image": "images/em124ebeambfield.jpg",
+    "description": "Investigation of the deflection of an electron beam in a uniform magnetic field.",
+    "link": "subpages/em124.html"
   },                          
  {
     "title": "EM125 - Parallel Currents",
@@ -444,4 +456,5 @@
     "description": "Tube with slotted cathode",
     "link": "subpages/em173.html"
   }
+
 ]
