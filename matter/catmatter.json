@@ -84,6 +84,12 @@
     "description": "For measuring humidity.",
     "link": "subpages/h25.html"
   },
+   {
+    "title": "H30 - Cooling Plate",
+    "image": "images/h30coolingplate.jpg",
+    "description": "Shows the varying thermal conductivity of different materials.",
+    "link": "subpages/h30.html"
+  },
   {
     "title": "H31 - Thermal Conductivity",
     "image": "images/h31thermcond.jpg",
