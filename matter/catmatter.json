@@ -239,7 +239,13 @@
     "image": "images/hy12vortex.jpg",
     "description": "Demonstrates the action of a vortex.",
     "link": "subpages/hy12.html"
-  },                         
+  },   
+  {
+    "title": "HY13 - Vortex Cannon",
+    "image": "images/hy13vortex.jpg",
+    "description": "Demonstrates the action of a vortex using smoke rings.",
+    "link": "subpages/hy13.html"
+  },                        
  {
     "title": "HD4 - Relaxation Oscillations",
     "image": "images/hd4relosc.jpg",
@@ -281,6 +287,12 @@
     "image": "images/ap4airweight.jpg",
     "description": "Weighing air.",
     "link": "subpages/ap4.html"
+  }, 
+  {
+    "title": "AP5 - Bernoulli Windbag",
+    "image": "images/ap5windbag.jpg",
+    "description": "Fill a long bag with one breath",
+    "link": "subpages/ap5.html"
   }, 
    {
     "title": "AP6 - Bernoulli Blower",

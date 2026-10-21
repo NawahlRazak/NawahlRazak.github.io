@@ -269,5 +269,11 @@
     "image": "images/l80colourslats.jpg",
     "description": "Demonstrating light and colour.",
     "link": "subpages/l80.html"
+  },
+   {
+    "title": "L81 - Stroboscope",
+    "image": "images/l81strobe.jpg",
+    "description": "Used to enhance appearance of certain phenomena.",
+    "link": "subpages/l81.html"
   }
 ]                                             
