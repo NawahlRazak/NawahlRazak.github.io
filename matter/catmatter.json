@@ -395,7 +395,13 @@
     "image": "images/s10resonance.jpg",
     "description": "Demonstrate resonance in sound waves.",
     "link": "subpages/s10.html"
-  },                         
+  },  
+  {
+    "title": "S11 - Interference/Beats",
+    "image": "images/s11interference.jpg",
+    "description": "Demonstrate resonance in sound waves.",
+    "link": "subpages/s11.html"
+  },                        
  {
     "title": "S12 - Tuning Forks",
     "image": "images/s12tforks.jpg",
